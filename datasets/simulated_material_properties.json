@@ -1,0 +1,492 @@
+[
+  {
+    "material": "metal",
+    "density": 8.577327256668928,
+    "friction": 0.5507227967743121,
+    "stiffness": 232.56807083066403,
+    "fragility": 0.11341096408882918
+  },
+  {
+    "material": "metal",
+    "density": 7.164829250756439,
+    "friction": 0.5729593676490787,
+    "stiffness": 203.50223109509074,
+    "fragility": 0.12787611619246367
+  },
+  {
+    "material": "metal",
+    "density": 7.180813876056975,
+    "friction": 0.5142125538180556,
+    "stiffness": 225.32371063121323,
+    "fragility": 0.08783864963355502
+  },
+  {
+    "material": "metal",
+    "density": 6.252449943091967,
+    "friction": 0.5808641957380297,
+    "stiffness": 174.65736435306337,
+    "fragility": 0.0751277757107227
+  },
+  {
+    "material": "metal",
+    "density": 6.900633735408969,
+    "friction": 0.6233780589590608,
+    "stiffness": 271.6283019064253,
+    "fragility": 0.06274277112893555
+  },
+  {
+    "material": "metal",
+    "density": 9.044259242454473,
+    "friction": 0.566675179414612,
+    "stiffness": 228.2427875068409,
+    "fragility": 0.1406414772439137
+  },
+  {
+    "material": "metal",
+    "density": 8.386019634121686,
+    "friction": 0.5444449363657164,
+    "stiffness": 244.33191256592517,
+    "fragility": 0.14904954215801988
+  },
+  {
+    "material": "metal",
+    "density": 8.645526360373871,
+    "friction": 0.5347778910287831,
+    "stiffness": 215.37268587097645,
+    "fragility": 0.10260726153292597
+  },
+  {
+    "material": "metal",
+    "density": 7.138058246890003,
+    "friction": 0.6408227958858516,
+    "stiffness": 264.0150066573494,
+    "fragility": 0.07361582965399906
+  },
+  {
+    "material": "metal",
+    "density": 6.750102548041457,
+    "friction": 0.7121193713278527,
+    "stiffness": 195.47408959449518,
+    "fragility": 0.09275298601749604
+  },
+  {
+    "material": "plastic",
+    "density": 0.9949376852597348,
+    "friction": 0.33312384735764944,
+    "stiffness": 4.405170240840229,
+    "fragility": 0.18345659360744465
+  },
+  {
+    "material": "plastic",
+    "density": 1.015906225198984,
+    "friction": 0.3587578915868919,
+    "stiffness": 2.276304354410528,
+    "fragility": 0.21482140678034414
+  },
+  {
+    "material": "plastic",
+    "density": 1.0356902006205166,
+    "friction": 0.3861244238609748,
+    "stiffness": 2.4351722227269916,
+    "fragility": 0.4487873568871182
+  },
+  {
+    "material": "plastic",
+    "density": 1.1775394947023685,
+    "friction": 0.46466158523006434,
+    "stiffness": 2.8851085586648955,
+    "fragility": 0.3190407493490031
+  },
+  {
+    "material": "plastic",
+    "density": 1.2093756436819614,
+    "friction": 0.46481183053614644,
+    "stiffness": 4.2305139309557624,
+    "fragility": 0.44994449854952756
+  },
+  {
+    "material": "plastic",
+    "density": 1.2174008376073615,
+    "friction": 0.39099356948863473,
+    "stiffness": 2.59457082626478,
+    "fragility": 0.3089188611923385
+  },
+  {
+    "material": "plastic",
+    "density": 1.045974781298191,
+    "friction": 0.32749125710801746,
+    "stiffness": 2.438507925034616,
+    "fragility": 0.4458034873729238
+  },
+  {
+    "material": "plastic",
+    "density": 1.1229600852498152,
+    "friction": 0.40233976528956916,
+    "stiffness": 3.036444408446131,
+    "fragility": 0.4140528862657549
+  },
+  {
+    "material": "plastic",
+    "density": 1.0325362955887543,
+    "friction": 0.3934504727733239,
+    "stiffness": 3.432161100978571,
+    "fragility": 0.1929109463480399
+  },
+  {
+    "material": "plastic",
+    "density": 1.1833227146786107,
+    "friction": 0.3440596256975097,
+    "stiffness": 3.5535191860446473,
+    "fragility": 0.4243435264775188
+  },
+  {
+    "material": "glass",
+    "density": 2.033170044419068,
+    "friction": 0.234225622164612,
+    "stiffness": 65.94831894297683,
+    "fragility": 1.0
+  },
+  {
+    "material": "glass",
+    "density": 2.2314987486045994,
+    "friction": 0.17951921529060288,
+    "stiffness": 71.4484106029317,
+    "fragility": 0.9380061769602804
+  },
+  {
+    "material": "glass",
+    "density": 2.662909746381138,
+    "friction": 0.18198138578895406,
+    "stiffness": 89.99005038801585,
+    "fragility": 0.880058500649762
+  },
+  {
+    "material": "glass",
+    "density": 2.8319562209667666,
+    "friction": 0.16598181588923408,
+    "stiffness": 96.74509194720713,
+    "fragility": 1.0
+  },
+  {
+    "material": "glass",
+    "density": 2.90957073267945,
+    "friction": 0.17828564226926413,
+    "stiffness": 37.4481011073976,
+    "fragility": 1.0
+  },
+  {
+    "material": "glass",
+    "density": 2.7047033431923695,
+    "friction": 0.20870207386093773,
+    "stiffness": 54.39490712141878,
+    "fragility": 0.6552889956423802
+  },
+  {
+    "material": "glass",
+    "density": 2.0931693160315996,
+    "friction": 0.2036916078808679,
+    "stiffness": 90.26414349431604,
+    "fragility": 0.7052422939037443
+  },
+  {
+    "material": "glass",
+    "density": 2.7036970017635293,
+    "friction": 0.21337030339730478,
+    "stiffness": 66.95854460229474,
+    "fragility": 0.7487896860639109
+  },
+  {
+    "material": "glass",
+    "density": 2.0146663550634925,
+    "friction": 0.22341878714526586,
+    "stiffness": 48.607375212683,
+    "fragility": 0.9891938558271519
+  },
+  {
+    "material": "glass",
+    "density": 2.503356086453734,
+    "friction": 0.2038179681438023,
+    "stiffness": 40.87499121513284,
+    "fragility": 0.8379699198072588
+  },
+  {
+    "material": "wood",
+    "density": 0.5562873853990158,
+    "friction": 0.599865196119886,
+    "stiffness": 8.24687018021564,
+    "fragility": 0.18475734768332433
+  },
+  {
+    "material": "wood",
+    "density": 0.6802866966257118,
+    "friction": 0.5889100485279573,
+    "stiffness": 13.904544149456957,
+    "fragility": 0.18659898144197717
+  },
+  {
+    "material": "wood",
+    "density": 0.5280626280114059,
+    "friction": 0.40360083381939943,
+    "stiffness": 8.78610858234744,
+    "fragility": 0.2674620314040698
+  },
+  {
+    "material": "wood",
+    "density": 0.6841680818433856,
+    "friction": 0.4249772545041931,
+    "stiffness": 9.184353554250947,
+    "fragility": 0.11248551349979899
+  },
+  {
+    "material": "wood",
+    "density": 0.6343090486680842,
+    "friction": 0.41770271547026494,
+    "stiffness": 10.55955995144916,
+    "fragility": 0.14823769377556842
+  },
+  {
+    "material": "wood",
+    "density": 0.4910291644283321,
+    "friction": 0.5767086244956243,
+    "stiffness": 15.244152947242119,
+    "fragility": 0.222609010173347
+  },
+  {
+    "material": "wood",
+    "density": 0.6005794282773004,
+    "friction": 0.5962728221434361,
+    "stiffness": 6.270323905754221,
+    "fragility": 0.16305166337863272
+  },
+  {
+    "material": "wood",
+    "density": 0.525162615542241,
+    "friction": 0.5977901642546223,
+    "stiffness": 11.766811031990372,
+    "fragility": 0.1300153698490466
+  },
+  {
+    "material": "wood",
+    "density": 0.5468720061532896,
+    "friction": 0.4892193812833428,
+    "stiffness": 13.283663998521762,
+    "fragility": 0.2886102580094964
+  },
+  {
+    "material": "wood",
+    "density": 0.4910392054141257,
+    "friction": 0.41668255868583143,
+    "stiffness": 14.758803235079721,
+    "fragility": 0.23764261564055733
+  },
+  {
+    "material": "fabric",
+    "density": 0.25985172984402916,
+    "friction": 0.8023199184682938,
+    "stiffness": 0.07131838686387808,
+    "fragility": 0.11836509288405694
+  },
+  {
+    "material": "fabric",
+    "density": 0.3355810499837435,
+    "friction": 0.8075858772754881,
+    "stiffness": 0.11973332812231308,
+    "fragility": 0.0789949432785731
+  },
+  {
+    "material": "fabric",
+    "density": 0.31064736431083745,
+    "friction": 0.6517718311260151,
+    "stiffness": 0.09470742520148064,
+    "fragility": 0.1418544169412711
+  },
+  {
+    "material": "fabric",
+    "density": 0.2921374861163328,
+    "friction": 0.5793258777528338,
+    "stiffness": 0.12484146337207845,
+    "fragility": 0.1029272942410648
+  },
+  {
+    "material": "fabric",
+    "density": 0.3251348923965649,
+    "friction": 0.7321743848991439,
+    "stiffness": 0.1286291828273067,
+    "fragility": 0.07311327028568845
+  },
+  {
+    "material": "fabric",
+    "density": 0.3183606862099836,
+    "friction": 0.6308646510339587,
+    "stiffness": 0.11803945923093706,
+    "fragility": 0.1268771715937986
+  },
+  {
+    "material": "fabric",
+    "density": 0.3111452219097473,
+    "friction": 0.7018121270573885,
+    "stiffness": 0.10475497776672196,
+    "fragility": 0.1369576347313211
+  },
+  {
+    "material": "fabric",
+    "density": 0.2980312930969995,
+    "friction": 0.776773068927824,
+    "stiffness": 0.14088771576141174,
+    "fragility": 0.06974272487299253
+  },
+  {
+    "material": "fabric",
+    "density": 0.30738174650214806,
+    "friction": 0.7031154905818919,
+    "stiffness": 0.06458740734072647,
+    "fragility": 0.06497487284297923
+  },
+  {
+    "material": "fabric",
+    "density": 0.3539871414124767,
+    "friction": 0.7856499856844089,
+    "stiffness": 0.1190430200514032,
+    "fragility": 0.14731062905204093
+  },
+  {
+    "material": "ceramic",
+    "density": 2.5361146696198906,
+    "friction": 0.3319766892326897,
+    "stiffness": 83.22492524470026,
+    "fragility": 1.0
+  },
+  {
+    "material": "ceramic",
+    "density": 2.7417233685172024,
+    "friction": 0.2530267927249347,
+    "stiffness": 127.0712706521365,
+    "fragility": 0.6143319032162513
+  },
+  {
+    "material": "ceramic",
+    "density": 2.242065862226245,
+    "friction": 0.30843756024963953,
+    "stiffness": 125.87960874634389,
+    "fragility": 0.9543121379937294
+  },
+  {
+    "material": "ceramic",
+    "density": 2.717519010012921,
+    "friction": 0.2563925339430252,
+    "stiffness": 140.21191908624897,
+    "fragility": 1.0
+  },
+  {
+    "material": "ceramic",
+    "density": 1.9133374688447304,
+    "friction": 0.3013558157350027,
+    "stiffness": 142.26176967212382,
+    "fragility": 1.0
+  },
+  {
+    "material": "ceramic",
+    "density": 1.8423274608719293,
+    "friction": 0.3063656375286698,
+    "stiffness": 77.11835193154283,
+    "fragility": 0.4929608592069425
+  },
+  {
+    "material": "ceramic",
+    "density": 2.2109667877688395,
+    "friction": 0.3581234092106792,
+    "stiffness": 80.4097830255406,
+    "fragility": 1.0
+  },
+  {
+    "material": "ceramic",
+    "density": 2.675036605552257,
+    "friction": 0.2783051701961796,
+    "stiffness": 81.42524911203685,
+    "fragility": 0.4823244689937023
+  },
+  {
+    "material": "ceramic",
+    "density": 2.1318060038398805,
+    "friction": 0.29091057525741726,
+    "stiffness": 136.12263880808456,
+    "fragility": 1.0
+  },
+  {
+    "material": "ceramic",
+    "density": 2.6444118598294084,
+    "friction": 0.3244401204932499,
+    "stiffness": 141.44192021165782,
+    "fragility": 1.0
+  },
+  {
+    "material": "rubber",
+    "density": 1.7999259639302903,
+    "friction": 0.8320465208148218,
+    "stiffness": 0.00923213526203572,
+    "fragility": 0.03920394366126141
+  },
+  {
+    "material": "rubber",
+    "density": 1.4806471340186809,
+    "friction": 0.8942580972876684,
+    "stiffness": 0.007510604098465331,
+    "fragility": 0.07068441901950073
+  },
+  {
+    "material": "rubber",
+    "density": 1.2166263393374206,
+    "friction": 0.7576654895113161,
+    "stiffness": 0.010647693268284707,
+    "fragility": 0.054247410007464004
+  },
+  {
+    "material": "rubber",
+    "density": 1.6749325539845703,
+    "friction": 0.6975739814632087,
+    "stiffness": 0.00922883666667986,
+    "fragility": 0.05163622845398025
+  },
+  {
+    "material": "rubber",
+    "density": 1.233109005685809,
+    "friction": 0.7345807169022752,
+    "stiffness": 0.013953185610282675,
+    "fragility": 0.02534513953993007
+  },
+  {
+    "material": "rubber",
+    "density": 1.3726278127061349,
+    "friction": 0.7153381220151923,
+    "stiffness": 0.006593230423674871,
+    "fragility": 0.06005286627235387
+  },
+  {
+    "material": "rubber",
+    "density": 1.3919948504741626,
+    "friction": 0.8326455432411151,
+    "stiffness": 0.01093361162026493,
+    "fragility": 0.05570339440762839
+  },
+  {
+    "material": "rubber",
+    "density": 1.2724985136636227,
+    "friction": 0.9504772442185792,
+    "stiffness": 0.014324802653995114,
+    "fragility": 0.05244069121285053
+  },
+  {
+    "material": "rubber",
+    "density": 1.2531008865378188,
+    "friction": 0.9105649690016302,
+    "stiffness": 0.011838160722492766,
+    "fragility": 0.06852767751362203
+  },
+  {
+    "material": "rubber",
+    "density": 1.7731635234114969,
+    "friction": 0.8077136590268336,
+    "stiffness": 0.008962267935161833,
+    "fragility": 0.06253236345785054
+  }
+]

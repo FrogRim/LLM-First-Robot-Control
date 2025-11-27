@@ -1,0 +1,31 @@
+{
+  "evaluation_metrics": {
+    "total_samples": 30,
+    "json_parse_success": 30,
+    "json_parse_rate_percent": 100.0,
+    "confidence_interval_95": {
+      "lower_bound_percent": 100.0,
+      "upper_bound_percent": 100.0
+    },
+    "avg_inference_time_ms": 25221.111639340717,
+    "avg_confidence_score": 0.7993333333333333
+  },
+  "interpretation": {
+    "accuracy_interpretation": "JSON 파싱률 100.0% (95% CI: [100.0%, 100.0%])",
+    "confidence_width": 0.0,
+    "statistical_significance": "95% 신뢰 수준에서 통계적으로 유의미함"
+  },
+  "training_statistics": {
+    "final_train_loss": 0.278,
+    "final_eval_loss": 0.325,
+    "loss_function": "Cross-Entropy Loss (Causal Language Modeling)",
+    "train_perplexity": 1.3204861972090953,
+    "eval_perplexity": 1.3840306459807514,
+    "overfitting_ratio": 1.1690647482014387,
+    "interpretation": {
+      "train_perplexity_meaning": "모델이 평균 1.32개 토큰 후보 중 선택 (낮을수록 확신도 높음)",
+      "eval_perplexity_meaning": "평가 데이터에서 1.38개 후보 중 선택",
+      "overfitting_status": "과적합 없음 (비율 1.17 < 1.5)"
+    }
+  }
+}

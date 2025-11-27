@@ -1,0 +1,35 @@
+PhysicalAI → Genesis+Franka 파이프라인 성능 보고서
+============================================================
+
+생성 시간: 2025-09-28 16:27:43
+
+시스템 정보:
+  CPU 코어 수: 16
+  총 메모리: 15.2 GB
+  사용 가능 메모리: 13.2 GB
+
+성능 요약:
+
+data_processing:
+  avg_execution_time: 0.0080
+  total_operations: 4
+  avg_success_rate: 1.0000
+  max_memory_usage_mb: 0.7031
+
+physics_mapping:
+  avg_execution_time: 0.0004
+  total_operations: 32
+  avg_success_rate: 1.0000
+  max_memory_usage_mb: 0.5000
+
+language_generation:
+  avg_execution_time: 0.0001
+  total_operations: 28
+  avg_success_rate: 0.9167
+  max_memory_usage_mb: 0.0000
+
+system_integration:
+  avg_execution_time: 0.6022
+  total_operations: 153
+  avg_success_rate: 0.7778
+  max_memory_usage_mb: 826.7812

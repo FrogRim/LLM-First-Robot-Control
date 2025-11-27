@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Large files (Model checkpoints)
+*.safetensors
+*.pt
+*.bin
+*.ckpt
+*.h5
+*.pth
+
+# Logs and databases
+*.log
+*.sqlite
+
+# WandB
+wandb/
+
+# IDE settings
+.vscode/
+.idea/

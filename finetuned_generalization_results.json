@@ -1,0 +1,143 @@
+{
+  "implicit_inference": {
+    "test_type": "implicit_material_inference",
+    "total_cases": 7,
+    "correct_predictions": 0,
+    "accuracy_percent": 0.0,
+    "results": [
+      {
+        "test_case": "투명한 컵 (glass 추론 필요)",
+        "instruction": "Pick up the transparent cup and place it on the tray",
+        "expected_material": "glass",
+        "predicted_material": "glass (tempered_glass)",
+        "is_correct": false,
+        "json_valid": true,
+        "inference_time_ms": 17210.14380455017,
+        "full_response": {
+          "physical_analysis": {
+            "material_inference": "glass (tempered_glass)",
+            "mass_category": "medium",
+            "friction_coefficient": "very_high",
+            "fragility": "very_fragile",
+            "stiffness": "very_high",
+            "confidence": 0.85
+          }
+        }
+      },
+      {
+        "test_case": "무거운 반짝이는 도구 (metal 추론 필요)",
+        "instruction": "Grab the heavy shiny tool and put it in the box",
+        "expected_material": "metal",
+        "predicted_material": "metal (steel)",
+        "is_correct": false,
+        "json_valid": true,
+        "inference_time_ms": 16556.025981903076,
+        "full_response": {
+          "physical_analysis": {
+            "material_inference": "metal (steel)",
+            "mass_category": "heavy",
+            "friction_coefficient": "very_high",
+            "fragility": "robust",
+            "stiffness": "very_high",
+            "confidence": 0.85
+          }
+        }
+      },
+      {
+        "test_case": "깨지기 쉬운 접시 (ceramic 추론 필요)",
+        "instruction": "Carefully lift the fragile dish and set it on the shelf",
+        "expected_material": "ceramic",
+        "predicted_material": "ceramic (porcelain)",
+        "is_correct": false,
+        "json_valid": true,
+        "inference_time_ms": 16773.417234420776,
+        "full_response": {
+          "physical_analysis": {
+            "material_inference": "ceramic (porcelain)",
+            "mass_category": "light",
+            "friction_coefficient": "very_high",
+            "fragility": "fragile",
+            "stiffness": "high",
+            "confidence": 0.85
+          }
+        }
+      },
+      {
+        "test_case": "가벼운 용기 (plastic 추론 필요)",
+        "instruction": "Pick up the lightweight container quickly",
+        "expected_material": "plastic",
+        "predicted_material": "fabric (polyester)",
+        "is_correct": false,
+        "json_valid": true,
+        "inference_time_ms": 16490.55552482605,
+        "full_response": {
+          "physical_analysis": {
+            "material_inference": "fabric (polyester)",
+            "mass_category": "very_light",
+            "friction_coefficient": "high",
+            "fragility": "robust",
+            "stiffness": "low",
+            "confidence": 0.85
+          }
+        }
+      },
+      {
+        "test_case": "부드러운 천 (fabric 추론 필요)",
+        "instruction": "Gently grasp the soft cloth and move it aside",
+        "expected_material": "fabric",
+        "predicted_material": "fabric (polyester)",
+        "is_correct": false,
+        "json_valid": true,
+        "inference_time_ms": 16608.267784118652,
+        "full_response": {
+          "physical_analysis": {
+            "material_inference": "fabric (polyester)",
+            "mass_category": "very_light",
+            "friction_coefficient": "low",
+            "fragility": "robust",
+            "stiffness": "very_low",
+            "confidence": 0.85
+          }
+        }
+      },
+      {
+        "test_case": "단단한 블록 (wood 추론 필요)",
+        "instruction": "Grab the solid block and position it in the holder",
+        "expected_material": "wood",
+        "predicted_material": "ceramic (porcelain)",
+        "is_correct": false,
+        "json_valid": true,
+        "inference_time_ms": 16455.16800880432,
+        "full_response": {
+          "physical_analysis": {
+            "material_inference": "ceramic (porcelain)",
+            "mass_category": "very_heavy",
+            "friction_coefficient": "high",
+            "fragility": "fragile",
+            "stiffness": "very_high",
+            "confidence": 0.85
+          }
+        }
+      },
+      {
+        "test_case": "유연한 튜브 (rubber 추론 필요)",
+        "instruction": "Pick up the flexible tube carefully",
+        "expected_material": "rubber",
+        "predicted_material": "rubber (soft_rubber)",
+        "is_correct": false,
+        "json_valid": true,
+        "inference_time_ms": 16488.945722579956,
+        "full_response": {
+          "physical_analysis": {
+            "material_inference": "rubber (soft_rubber)",
+            "mass_category": "very_light",
+            "friction_coefficient": "high",
+            "fragility": "robust",
+            "stiffness": "low",
+            "confidence": 0.85
+          }
+        }
+      }
+    ]
+  }
+}

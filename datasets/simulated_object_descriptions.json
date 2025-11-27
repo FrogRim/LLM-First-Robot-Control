@@ -1,0 +1,2402 @@
+[
+  {
+    "object": "책",
+    "material": "fabric",
+    "adjective": "작은",
+    "description": "작은 fabric 책",
+    "properties": {
+      "density": 0.3,
+      "friction": 0.7,
+      "stiffness": 0.1,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "인형",
+    "material": "ceramic",
+    "adjective": "작은",
+    "description": "작은 ceramic 인형",
+    "properties": {
+      "density": 2.3,
+      "friction": 0.3,
+      "stiffness": 100,
+      "fragility": 0.8
+    }
+  },
+  {
+    "object": "책",
+    "material": "plastic",
+    "adjective": "무거운",
+    "description": "무거운 plastic 책",
+    "properties": {
+      "density": 1.2,
+      "friction": 0.4,
+      "stiffness": 3,
+      "fragility": 0.3
+    }
+  },
+  {
+    "object": "접시",
+    "material": "metal",
+    "adjective": "거친",
+    "description": "거친 metal 접시",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "공",
+    "material": "fabric",
+    "adjective": "딱딱한",
+    "description": "딱딱한 fabric 공",
+    "properties": {
+      "density": 0.3,
+      "friction": 0.7,
+      "stiffness": 0.1,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "접시",
+    "material": "ceramic",
+    "adjective": "깨지기쉬운",
+    "description": "깨지기쉬운 ceramic 접시",
+    "properties": {
+      "density": 2.3,
+      "friction": 0.3,
+      "stiffness": 100,
+      "fragility": 0.8
+    }
+  },
+  {
+    "object": "인형",
+    "material": "metal",
+    "adjective": "무거운",
+    "description": "무거운 metal 인형",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "접시",
+    "material": "wood",
+    "adjective": "무거운",
+    "description": "무거운 wood 접시",
+    "properties": {
+      "density": 0.6,
+      "friction": 0.5,
+      "stiffness": 12,
+      "fragility": 0.2
+    }
+  },
+  {
+    "object": "책",
+    "material": "fabric",
+    "adjective": "거친",
+    "description": "거친 fabric 책",
+    "properties": {
+      "density": 0.3,
+      "friction": 0.7,
+      "stiffness": 0.1,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "병",
+    "material": "fabric",
+    "adjective": "미끄러운",
+    "description": "미끄러운 fabric 병",
+    "properties": {
+      "density": 0.3,
+      "friction": 0.7,
+      "stiffness": 0.1,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "상자",
+    "material": "metal",
+    "adjective": "거친",
+    "description": "거친 metal 상자",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "그릇",
+    "material": "wood",
+    "adjective": "깨지기쉬운",
+    "description": "깨지기쉬운 wood 그릇",
+    "properties": {
+      "density": 0.6,
+      "friction": 0.5,
+      "stiffness": 12,
+      "fragility": 0.2
+    }
+  },
+  {
+    "object": "상자",
+    "material": "wood",
+    "adjective": "부드러운",
+    "description": "부드러운 wood 상자",
+    "properties": {
+      "density": 0.6,
+      "friction": 0.5,
+      "stiffness": 12,
+      "fragility": 0.2
+    }
+  },
+  {
+    "object": "상자",
+    "material": "ceramic",
+    "adjective": "무거운",
+    "description": "무거운 ceramic 상자",
+    "properties": {
+      "density": 2.3,
+      "friction": 0.3,
+      "stiffness": 100,
+      "fragility": 0.8
+    }
+  },
+  {
+    "object": "인형",
+    "material": "glass",
+    "adjective": "가벼운",
+    "description": "가벼운 glass 인형",
+    "properties": {
+      "density": 2.5,
+      "friction": 0.2,
+      "stiffness": 70,
+      "fragility": 0.9
+    }
+  },
+  {
+    "object": "컵",
+    "material": "plastic",
+    "adjective": "무거운",
+    "description": "무거운 plastic 컵",
+    "properties": {
+      "density": 1.2,
+      "friction": 0.4,
+      "stiffness": 3,
+      "fragility": 0.3
+    }
+  },
+  {
+    "object": "공",
+    "material": "glass",
+    "adjective": "깨지기쉬운",
+    "description": "깨지기쉬운 glass 공",
+    "properties": {
+      "density": 2.5,
+      "friction": 0.2,
+      "stiffness": 70,
+      "fragility": 0.9
+    }
+  },
+  {
+    "object": "상자",
+    "material": "fabric",
+    "adjective": "부드러운",
+    "description": "부드러운 fabric 상자",
+    "properties": {
+      "density": 0.3,
+      "friction": 0.7,
+      "stiffness": 0.1,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "공",
+    "material": "ceramic",
+    "adjective": "미끄러운",
+    "description": "미끄러운 ceramic 공",
+    "properties": {
+      "density": 2.3,
+      "friction": 0.3,
+      "stiffness": 100,
+      "fragility": 0.8
+    }
+  },
+  {
+    "object": "펜",
+    "material": "glass",
+    "adjective": "작은",
+    "description": "작은 glass 펜",
+    "properties": {
+      "density": 2.5,
+      "friction": 0.2,
+      "stiffness": 70,
+      "fragility": 0.9
+    }
+  },
+  {
+    "object": "블록",
+    "material": "glass",
+    "adjective": "무거운",
+    "description": "무거운 glass 블록",
+    "properties": {
+      "density": 2.5,
+      "friction": 0.2,
+      "stiffness": 70,
+      "fragility": 0.9
+    }
+  },
+  {
+    "object": "공",
+    "material": "metal",
+    "adjective": "무거운",
+    "description": "무거운 metal 공",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "그릇",
+    "material": "plastic",
+    "adjective": "미끄러운",
+    "description": "미끄러운 plastic 그릇",
+    "properties": {
+      "density": 1.2,
+      "friction": 0.4,
+      "stiffness": 3,
+      "fragility": 0.3
+    }
+  },
+  {
+    "object": "블록",
+    "material": "plastic",
+    "adjective": "큰",
+    "description": "큰 plastic 블록",
+    "properties": {
+      "density": 1.2,
+      "friction": 0.4,
+      "stiffness": 3,
+      "fragility": 0.3
+    }
+  },
+  {
+    "object": "펜",
+    "material": "rubber",
+    "adjective": "가벼운",
+    "description": "가벼운 rubber 펜",
+    "properties": {
+      "density": 1.5,
+      "friction": 0.8,
+      "stiffness": 0.01,
+      "fragility": 0.05
+    }
+  },
+  {
+    "object": "책",
+    "material": "metal",
+    "adjective": "무거운",
+    "description": "무거운 metal 책",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "상자",
+    "material": "metal",
+    "adjective": "거친",
+    "description": "거친 metal 상자",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "상자",
+    "material": "rubber",
+    "adjective": "큰",
+    "description": "큰 rubber 상자",
+    "properties": {
+      "density": 1.5,
+      "friction": 0.8,
+      "stiffness": 0.01,
+      "fragility": 0.05
+    }
+  },
+  {
+    "object": "상자",
+    "material": "glass",
+    "adjective": "거친",
+    "description": "거친 glass 상자",
+    "properties": {
+      "density": 2.5,
+      "friction": 0.2,
+      "stiffness": 70,
+      "fragility": 0.9
+    }
+  },
+  {
+    "object": "병",
+    "material": "ceramic",
+    "adjective": "작은",
+    "description": "작은 ceramic 병",
+    "properties": {
+      "density": 2.3,
+      "friction": 0.3,
+      "stiffness": 100,
+      "fragility": 0.8
+    }
+  },
+  {
+    "object": "펜",
+    "material": "plastic",
+    "adjective": "무거운",
+    "description": "무거운 plastic 펜",
+    "properties": {
+      "density": 1.2,
+      "friction": 0.4,
+      "stiffness": 3,
+      "fragility": 0.3
+    }
+  },
+  {
+    "object": "인형",
+    "material": "plastic",
+    "adjective": "작은",
+    "description": "작은 plastic 인형",
+    "properties": {
+      "density": 1.2,
+      "friction": 0.4,
+      "stiffness": 3,
+      "fragility": 0.3
+    }
+  },
+  {
+    "object": "그릇",
+    "material": "wood",
+    "adjective": "부드러운",
+    "description": "부드러운 wood 그릇",
+    "properties": {
+      "density": 0.6,
+      "friction": 0.5,
+      "stiffness": 12,
+      "fragility": 0.2
+    }
+  },
+  {
+    "object": "컵",
+    "material": "metal",
+    "adjective": "깨지기쉬운",
+    "description": "깨지기쉬운 metal 컵",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "접시",
+    "material": "rubber",
+    "adjective": "작은",
+    "description": "작은 rubber 접시",
+    "properties": {
+      "density": 1.5,
+      "friction": 0.8,
+      "stiffness": 0.01,
+      "fragility": 0.05
+    }
+  },
+  {
+    "object": "컵",
+    "material": "fabric",
+    "adjective": "깨지기쉬운",
+    "description": "깨지기쉬운 fabric 컵",
+    "properties": {
+      "density": 0.3,
+      "friction": 0.7,
+      "stiffness": 0.1,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "블록",
+    "material": "fabric",
+    "adjective": "작은",
+    "description": "작은 fabric 블록",
+    "properties": {
+      "density": 0.3,
+      "friction": 0.7,
+      "stiffness": 0.1,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "병",
+    "material": "glass",
+    "adjective": "미끄러운",
+    "description": "미끄러운 glass 병",
+    "properties": {
+      "density": 2.5,
+      "friction": 0.2,
+      "stiffness": 70,
+      "fragility": 0.9
+    }
+  },
+  {
+    "object": "펜",
+    "material": "metal",
+    "adjective": "작은",
+    "description": "작은 metal 펜",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "펜",
+    "material": "rubber",
+    "adjective": "미끄러운",
+    "description": "미끄러운 rubber 펜",
+    "properties": {
+      "density": 1.5,
+      "friction": 0.8,
+      "stiffness": 0.01,
+      "fragility": 0.05
+    }
+  },
+  {
+    "object": "접시",
+    "material": "fabric",
+    "adjective": "작은",
+    "description": "작은 fabric 접시",
+    "properties": {
+      "density": 0.3,
+      "friction": 0.7,
+      "stiffness": 0.1,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "펜",
+    "material": "glass",
+    "adjective": "딱딱한",
+    "description": "딱딱한 glass 펜",
+    "properties": {
+      "density": 2.5,
+      "friction": 0.2,
+      "stiffness": 70,
+      "fragility": 0.9
+    }
+  },
+  {
+    "object": "펜",
+    "material": "wood",
+    "adjective": "딱딱한",
+    "description": "딱딱한 wood 펜",
+    "properties": {
+      "density": 0.6,
+      "friction": 0.5,
+      "stiffness": 12,
+      "fragility": 0.2
+    }
+  },
+  {
+    "object": "병",
+    "material": "fabric",
+    "adjective": "부드러운",
+    "description": "부드러운 fabric 병",
+    "properties": {
+      "density": 0.3,
+      "friction": 0.7,
+      "stiffness": 0.1,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "펜",
+    "material": "glass",
+    "adjective": "미끄러운",
+    "description": "미끄러운 glass 펜",
+    "properties": {
+      "density": 2.5,
+      "friction": 0.2,
+      "stiffness": 70,
+      "fragility": 0.9
+    }
+  },
+  {
+    "object": "인형",
+    "material": "fabric",
+    "adjective": "가벼운",
+    "description": "가벼운 fabric 인형",
+    "properties": {
+      "density": 0.3,
+      "friction": 0.7,
+      "stiffness": 0.1,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "그릇",
+    "material": "wood",
+    "adjective": "깨지기쉬운",
+    "description": "깨지기쉬운 wood 그릇",
+    "properties": {
+      "density": 0.6,
+      "friction": 0.5,
+      "stiffness": 12,
+      "fragility": 0.2
+    }
+  },
+  {
+    "object": "펜",
+    "material": "metal",
+    "adjective": "작은",
+    "description": "작은 metal 펜",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "책",
+    "material": "rubber",
+    "adjective": "부드러운",
+    "description": "부드러운 rubber 책",
+    "properties": {
+      "density": 1.5,
+      "friction": 0.8,
+      "stiffness": 0.01,
+      "fragility": 0.05
+    }
+  },
+  {
+    "object": "펜",
+    "material": "rubber",
+    "adjective": "딱딱한",
+    "description": "딱딱한 rubber 펜",
+    "properties": {
+      "density": 1.5,
+      "friction": 0.8,
+      "stiffness": 0.01,
+      "fragility": 0.05
+    }
+  },
+  {
+    "object": "접시",
+    "material": "plastic",
+    "adjective": "깨지기쉬운",
+    "description": "깨지기쉬운 plastic 접시",
+    "properties": {
+      "density": 1.2,
+      "friction": 0.4,
+      "stiffness": 3,
+      "fragility": 0.3
+    }
+  },
+  {
+    "object": "컵",
+    "material": "wood",
+    "adjective": "미끄러운",
+    "description": "미끄러운 wood 컵",
+    "properties": {
+      "density": 0.6,
+      "friction": 0.5,
+      "stiffness": 12,
+      "fragility": 0.2
+    }
+  },
+  {
+    "object": "병",
+    "material": "ceramic",
+    "adjective": "무거운",
+    "description": "무거운 ceramic 병",
+    "properties": {
+      "density": 2.3,
+      "friction": 0.3,
+      "stiffness": 100,
+      "fragility": 0.8
+    }
+  },
+  {
+    "object": "공",
+    "material": "wood",
+    "adjective": "부드러운",
+    "description": "부드러운 wood 공",
+    "properties": {
+      "density": 0.6,
+      "friction": 0.5,
+      "stiffness": 12,
+      "fragility": 0.2
+    }
+  },
+  {
+    "object": "펜",
+    "material": "fabric",
+    "adjective": "깨지기쉬운",
+    "description": "깨지기쉬운 fabric 펜",
+    "properties": {
+      "density": 0.3,
+      "friction": 0.7,
+      "stiffness": 0.1,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "컵",
+    "material": "glass",
+    "adjective": "무거운",
+    "description": "무거운 glass 컵",
+    "properties": {
+      "density": 2.5,
+      "friction": 0.2,
+      "stiffness": 70,
+      "fragility": 0.9
+    }
+  },
+  {
+    "object": "병",
+    "material": "ceramic",
+    "adjective": "거친",
+    "description": "거친 ceramic 병",
+    "properties": {
+      "density": 2.3,
+      "friction": 0.3,
+      "stiffness": 100,
+      "fragility": 0.8
+    }
+  },
+  {
+    "object": "접시",
+    "material": "glass",
+    "adjective": "가벼운",
+    "description": "가벼운 glass 접시",
+    "properties": {
+      "density": 2.5,
+      "friction": 0.2,
+      "stiffness": 70,
+      "fragility": 0.9
+    }
+  },
+  {
+    "object": "접시",
+    "material": "wood",
+    "adjective": "작은",
+    "description": "작은 wood 접시",
+    "properties": {
+      "density": 0.6,
+      "friction": 0.5,
+      "stiffness": 12,
+      "fragility": 0.2
+    }
+  },
+  {
+    "object": "상자",
+    "material": "wood",
+    "adjective": "가벼운",
+    "description": "가벼운 wood 상자",
+    "properties": {
+      "density": 0.6,
+      "friction": 0.5,
+      "stiffness": 12,
+      "fragility": 0.2
+    }
+  },
+  {
+    "object": "책",
+    "material": "metal",
+    "adjective": "거친",
+    "description": "거친 metal 책",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "컵",
+    "material": "metal",
+    "adjective": "깨지기쉬운",
+    "description": "깨지기쉬운 metal 컵",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "컵",
+    "material": "rubber",
+    "adjective": "미끄러운",
+    "description": "미끄러운 rubber 컵",
+    "properties": {
+      "density": 1.5,
+      "friction": 0.8,
+      "stiffness": 0.01,
+      "fragility": 0.05
+    }
+  },
+  {
+    "object": "블록",
+    "material": "metal",
+    "adjective": "깨지기쉬운",
+    "description": "깨지기쉬운 metal 블록",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "펜",
+    "material": "rubber",
+    "adjective": "무거운",
+    "description": "무거운 rubber 펜",
+    "properties": {
+      "density": 1.5,
+      "friction": 0.8,
+      "stiffness": 0.01,
+      "fragility": 0.05
+    }
+  },
+  {
+    "object": "접시",
+    "material": "ceramic",
+    "adjective": "작은",
+    "description": "작은 ceramic 접시",
+    "properties": {
+      "density": 2.3,
+      "friction": 0.3,
+      "stiffness": 100,
+      "fragility": 0.8
+    }
+  },
+  {
+    "object": "접시",
+    "material": "ceramic",
+    "adjective": "작은",
+    "description": "작은 ceramic 접시",
+    "properties": {
+      "density": 2.3,
+      "friction": 0.3,
+      "stiffness": 100,
+      "fragility": 0.8
+    }
+  },
+  {
+    "object": "병",
+    "material": "rubber",
+    "adjective": "가벼운",
+    "description": "가벼운 rubber 병",
+    "properties": {
+      "density": 1.5,
+      "friction": 0.8,
+      "stiffness": 0.01,
+      "fragility": 0.05
+    }
+  },
+  {
+    "object": "공",
+    "material": "plastic",
+    "adjective": "큰",
+    "description": "큰 plastic 공",
+    "properties": {
+      "density": 1.2,
+      "friction": 0.4,
+      "stiffness": 3,
+      "fragility": 0.3
+    }
+  },
+  {
+    "object": "공",
+    "material": "plastic",
+    "adjective": "큰",
+    "description": "큰 plastic 공",
+    "properties": {
+      "density": 1.2,
+      "friction": 0.4,
+      "stiffness": 3,
+      "fragility": 0.3
+    }
+  },
+  {
+    "object": "책",
+    "material": "wood",
+    "adjective": "미끄러운",
+    "description": "미끄러운 wood 책",
+    "properties": {
+      "density": 0.6,
+      "friction": 0.5,
+      "stiffness": 12,
+      "fragility": 0.2
+    }
+  },
+  {
+    "object": "인형",
+    "material": "rubber",
+    "adjective": "거친",
+    "description": "거친 rubber 인형",
+    "properties": {
+      "density": 1.5,
+      "friction": 0.8,
+      "stiffness": 0.01,
+      "fragility": 0.05
+    }
+  },
+  {
+    "object": "상자",
+    "material": "glass",
+    "adjective": "무거운",
+    "description": "무거운 glass 상자",
+    "properties": {
+      "density": 2.5,
+      "friction": 0.2,
+      "stiffness": 70,
+      "fragility": 0.9
+    }
+  },
+  {
+    "object": "공",
+    "material": "fabric",
+    "adjective": "딱딱한",
+    "description": "딱딱한 fabric 공",
+    "properties": {
+      "density": 0.3,
+      "friction": 0.7,
+      "stiffness": 0.1,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "블록",
+    "material": "metal",
+    "adjective": "작은",
+    "description": "작은 metal 블록",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "공",
+    "material": "metal",
+    "adjective": "가벼운",
+    "description": "가벼운 metal 공",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "접시",
+    "material": "fabric",
+    "adjective": "큰",
+    "description": "큰 fabric 접시",
+    "properties": {
+      "density": 0.3,
+      "friction": 0.7,
+      "stiffness": 0.1,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "그릇",
+    "material": "glass",
+    "adjective": "무거운",
+    "description": "무거운 glass 그릇",
+    "properties": {
+      "density": 2.5,
+      "friction": 0.2,
+      "stiffness": 70,
+      "fragility": 0.9
+    }
+  },
+  {
+    "object": "공",
+    "material": "wood",
+    "adjective": "큰",
+    "description": "큰 wood 공",
+    "properties": {
+      "density": 0.6,
+      "friction": 0.5,
+      "stiffness": 12,
+      "fragility": 0.2
+    }
+  },
+  {
+    "object": "컵",
+    "material": "glass",
+    "adjective": "큰",
+    "description": "큰 glass 컵",
+    "properties": {
+      "density": 2.5,
+      "friction": 0.2,
+      "stiffness": 70,
+      "fragility": 0.9
+    }
+  },
+  {
+    "object": "책",
+    "material": "glass",
+    "adjective": "깨지기쉬운",
+    "description": "깨지기쉬운 glass 책",
+    "properties": {
+      "density": 2.5,
+      "friction": 0.2,
+      "stiffness": 70,
+      "fragility": 0.9
+    }
+  },
+  {
+    "object": "그릇",
+    "material": "metal",
+    "adjective": "무거운",
+    "description": "무거운 metal 그릇",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "병",
+    "material": "glass",
+    "adjective": "가벼운",
+    "description": "가벼운 glass 병",
+    "properties": {
+      "density": 2.5,
+      "friction": 0.2,
+      "stiffness": 70,
+      "fragility": 0.9
+    }
+  },
+  {
+    "object": "책",
+    "material": "metal",
+    "adjective": "무거운",
+    "description": "무거운 metal 책",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "접시",
+    "material": "glass",
+    "adjective": "무거운",
+    "description": "무거운 glass 접시",
+    "properties": {
+      "density": 2.5,
+      "friction": 0.2,
+      "stiffness": 70,
+      "fragility": 0.9
+    }
+  },
+  {
+    "object": "책",
+    "material": "plastic",
+    "adjective": "가벼운",
+    "description": "가벼운 plastic 책",
+    "properties": {
+      "density": 1.2,
+      "friction": 0.4,
+      "stiffness": 3,
+      "fragility": 0.3
+    }
+  },
+  {
+    "object": "접시",
+    "material": "metal",
+    "adjective": "부드러운",
+    "description": "부드러운 metal 접시",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "펜",
+    "material": "glass",
+    "adjective": "거친",
+    "description": "거친 glass 펜",
+    "properties": {
+      "density": 2.5,
+      "friction": 0.2,
+      "stiffness": 70,
+      "fragility": 0.9
+    }
+  },
+  {
+    "object": "펜",
+    "material": "wood",
+    "adjective": "미끄러운",
+    "description": "미끄러운 wood 펜",
+    "properties": {
+      "density": 0.6,
+      "friction": 0.5,
+      "stiffness": 12,
+      "fragility": 0.2
+    }
+  },
+  {
+    "object": "블록",
+    "material": "glass",
+    "adjective": "깨지기쉬운",
+    "description": "깨지기쉬운 glass 블록",
+    "properties": {
+      "density": 2.5,
+      "friction": 0.2,
+      "stiffness": 70,
+      "fragility": 0.9
+    }
+  },
+  {
+    "object": "상자",
+    "material": "wood",
+    "adjective": "미끄러운",
+    "description": "미끄러운 wood 상자",
+    "properties": {
+      "density": 0.6,
+      "friction": 0.5,
+      "stiffness": 12,
+      "fragility": 0.2
+    }
+  },
+  {
+    "object": "펜",
+    "material": "rubber",
+    "adjective": "깨지기쉬운",
+    "description": "깨지기쉬운 rubber 펜",
+    "properties": {
+      "density": 1.5,
+      "friction": 0.8,
+      "stiffness": 0.01,
+      "fragility": 0.05
+    }
+  },
+  {
+    "object": "책",
+    "material": "ceramic",
+    "adjective": "가벼운",
+    "description": "가벼운 ceramic 책",
+    "properties": {
+      "density": 2.3,
+      "friction": 0.3,
+      "stiffness": 100,
+      "fragility": 0.8
+    }
+  },
+  {
+    "object": "블록",
+    "material": "rubber",
+    "adjective": "깨지기쉬운",
+    "description": "깨지기쉬운 rubber 블록",
+    "properties": {
+      "density": 1.5,
+      "friction": 0.8,
+      "stiffness": 0.01,
+      "fragility": 0.05
+    }
+  },
+  {
+    "object": "인형",
+    "material": "wood",
+    "adjective": "가벼운",
+    "description": "가벼운 wood 인형",
+    "properties": {
+      "density": 0.6,
+      "friction": 0.5,
+      "stiffness": 12,
+      "fragility": 0.2
+    }
+  },
+  {
+    "object": "컵",
+    "material": "plastic",
+    "adjective": "미끄러운",
+    "description": "미끄러운 plastic 컵",
+    "properties": {
+      "density": 1.2,
+      "friction": 0.4,
+      "stiffness": 3,
+      "fragility": 0.3
+    }
+  },
+  {
+    "object": "공",
+    "material": "metal",
+    "adjective": "큰",
+    "description": "큰 metal 공",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "책",
+    "material": "plastic",
+    "adjective": "부드러운",
+    "description": "부드러운 plastic 책",
+    "properties": {
+      "density": 1.2,
+      "friction": 0.4,
+      "stiffness": 3,
+      "fragility": 0.3
+    }
+  },
+  {
+    "object": "블록",
+    "material": "fabric",
+    "adjective": "거친",
+    "description": "거친 fabric 블록",
+    "properties": {
+      "density": 0.3,
+      "friction": 0.7,
+      "stiffness": 0.1,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "컵",
+    "material": "ceramic",
+    "adjective": "거친",
+    "description": "거친 ceramic 컵",
+    "properties": {
+      "density": 2.3,
+      "friction": 0.3,
+      "stiffness": 100,
+      "fragility": 0.8
+    }
+  },
+  {
+    "object": "인형",
+    "material": "metal",
+    "adjective": "깨지기쉬운",
+    "description": "깨지기쉬운 metal 인형",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "책",
+    "material": "glass",
+    "adjective": "미끄러운",
+    "description": "미끄러운 glass 책",
+    "properties": {
+      "density": 2.5,
+      "friction": 0.2,
+      "stiffness": 70,
+      "fragility": 0.9
+    }
+  },
+  {
+    "object": "책",
+    "material": "rubber",
+    "adjective": "깨지기쉬운",
+    "description": "깨지기쉬운 rubber 책",
+    "properties": {
+      "density": 1.5,
+      "friction": 0.8,
+      "stiffness": 0.01,
+      "fragility": 0.05
+    }
+  },
+  {
+    "object": "그릇",
+    "material": "rubber",
+    "adjective": "딱딱한",
+    "description": "딱딱한 rubber 그릇",
+    "properties": {
+      "density": 1.5,
+      "friction": 0.8,
+      "stiffness": 0.01,
+      "fragility": 0.05
+    }
+  },
+  {
+    "object": "펜",
+    "material": "fabric",
+    "adjective": "가벼운",
+    "description": "가벼운 fabric 펜",
+    "properties": {
+      "density": 0.3,
+      "friction": 0.7,
+      "stiffness": 0.1,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "블록",
+    "material": "fabric",
+    "adjective": "부드러운",
+    "description": "부드러운 fabric 블록",
+    "properties": {
+      "density": 0.3,
+      "friction": 0.7,
+      "stiffness": 0.1,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "그릇",
+    "material": "wood",
+    "adjective": "딱딱한",
+    "description": "딱딱한 wood 그릇",
+    "properties": {
+      "density": 0.6,
+      "friction": 0.5,
+      "stiffness": 12,
+      "fragility": 0.2
+    }
+  },
+  {
+    "object": "접시",
+    "material": "metal",
+    "adjective": "큰",
+    "description": "큰 metal 접시",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "펜",
+    "material": "wood",
+    "adjective": "거친",
+    "description": "거친 wood 펜",
+    "properties": {
+      "density": 0.6,
+      "friction": 0.5,
+      "stiffness": 12,
+      "fragility": 0.2
+    }
+  },
+  {
+    "object": "그릇",
+    "material": "plastic",
+    "adjective": "딱딱한",
+    "description": "딱딱한 plastic 그릇",
+    "properties": {
+      "density": 1.2,
+      "friction": 0.4,
+      "stiffness": 3,
+      "fragility": 0.3
+    }
+  },
+  {
+    "object": "블록",
+    "material": "ceramic",
+    "adjective": "미끄러운",
+    "description": "미끄러운 ceramic 블록",
+    "properties": {
+      "density": 2.3,
+      "friction": 0.3,
+      "stiffness": 100,
+      "fragility": 0.8
+    }
+  },
+  {
+    "object": "인형",
+    "material": "plastic",
+    "adjective": "큰",
+    "description": "큰 plastic 인형",
+    "properties": {
+      "density": 1.2,
+      "friction": 0.4,
+      "stiffness": 3,
+      "fragility": 0.3
+    }
+  },
+  {
+    "object": "병",
+    "material": "metal",
+    "adjective": "가벼운",
+    "description": "가벼운 metal 병",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "펜",
+    "material": "metal",
+    "adjective": "무거운",
+    "description": "무거운 metal 펜",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "인형",
+    "material": "metal",
+    "adjective": "무거운",
+    "description": "무거운 metal 인형",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "병",
+    "material": "rubber",
+    "adjective": "거친",
+    "description": "거친 rubber 병",
+    "properties": {
+      "density": 1.5,
+      "friction": 0.8,
+      "stiffness": 0.01,
+      "fragility": 0.05
+    }
+  },
+  {
+    "object": "병",
+    "material": "rubber",
+    "adjective": "부드러운",
+    "description": "부드러운 rubber 병",
+    "properties": {
+      "density": 1.5,
+      "friction": 0.8,
+      "stiffness": 0.01,
+      "fragility": 0.05
+    }
+  },
+  {
+    "object": "블록",
+    "material": "metal",
+    "adjective": "가벼운",
+    "description": "가벼운 metal 블록",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "인형",
+    "material": "ceramic",
+    "adjective": "부드러운",
+    "description": "부드러운 ceramic 인형",
+    "properties": {
+      "density": 2.3,
+      "friction": 0.3,
+      "stiffness": 100,
+      "fragility": 0.8
+    }
+  },
+  {
+    "object": "컵",
+    "material": "plastic",
+    "adjective": "부드러운",
+    "description": "부드러운 plastic 컵",
+    "properties": {
+      "density": 1.2,
+      "friction": 0.4,
+      "stiffness": 3,
+      "fragility": 0.3
+    }
+  },
+  {
+    "object": "상자",
+    "material": "fabric",
+    "adjective": "큰",
+    "description": "큰 fabric 상자",
+    "properties": {
+      "density": 0.3,
+      "friction": 0.7,
+      "stiffness": 0.1,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "접시",
+    "material": "wood",
+    "adjective": "무거운",
+    "description": "무거운 wood 접시",
+    "properties": {
+      "density": 0.6,
+      "friction": 0.5,
+      "stiffness": 12,
+      "fragility": 0.2
+    }
+  },
+  {
+    "object": "블록",
+    "material": "wood",
+    "adjective": "무거운",
+    "description": "무거운 wood 블록",
+    "properties": {
+      "density": 0.6,
+      "friction": 0.5,
+      "stiffness": 12,
+      "fragility": 0.2
+    }
+  },
+  {
+    "object": "병",
+    "material": "fabric",
+    "adjective": "무거운",
+    "description": "무거운 fabric 병",
+    "properties": {
+      "density": 0.3,
+      "friction": 0.7,
+      "stiffness": 0.1,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "컵",
+    "material": "plastic",
+    "adjective": "무거운",
+    "description": "무거운 plastic 컵",
+    "properties": {
+      "density": 1.2,
+      "friction": 0.4,
+      "stiffness": 3,
+      "fragility": 0.3
+    }
+  },
+  {
+    "object": "책",
+    "material": "metal",
+    "adjective": "거친",
+    "description": "거친 metal 책",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "인형",
+    "material": "plastic",
+    "adjective": "미끄러운",
+    "description": "미끄러운 plastic 인형",
+    "properties": {
+      "density": 1.2,
+      "friction": 0.4,
+      "stiffness": 3,
+      "fragility": 0.3
+    }
+  },
+  {
+    "object": "공",
+    "material": "fabric",
+    "adjective": "무거운",
+    "description": "무거운 fabric 공",
+    "properties": {
+      "density": 0.3,
+      "friction": 0.7,
+      "stiffness": 0.1,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "접시",
+    "material": "glass",
+    "adjective": "깨지기쉬운",
+    "description": "깨지기쉬운 glass 접시",
+    "properties": {
+      "density": 2.5,
+      "friction": 0.2,
+      "stiffness": 70,
+      "fragility": 0.9
+    }
+  },
+  {
+    "object": "상자",
+    "material": "plastic",
+    "adjective": "가벼운",
+    "description": "가벼운 plastic 상자",
+    "properties": {
+      "density": 1.2,
+      "friction": 0.4,
+      "stiffness": 3,
+      "fragility": 0.3
+    }
+  },
+  {
+    "object": "그릇",
+    "material": "glass",
+    "adjective": "가벼운",
+    "description": "가벼운 glass 그릇",
+    "properties": {
+      "density": 2.5,
+      "friction": 0.2,
+      "stiffness": 70,
+      "fragility": 0.9
+    }
+  },
+  {
+    "object": "컵",
+    "material": "plastic",
+    "adjective": "딱딱한",
+    "description": "딱딱한 plastic 컵",
+    "properties": {
+      "density": 1.2,
+      "friction": 0.4,
+      "stiffness": 3,
+      "fragility": 0.3
+    }
+  },
+  {
+    "object": "공",
+    "material": "wood",
+    "adjective": "가벼운",
+    "description": "가벼운 wood 공",
+    "properties": {
+      "density": 0.6,
+      "friction": 0.5,
+      "stiffness": 12,
+      "fragility": 0.2
+    }
+  },
+  {
+    "object": "상자",
+    "material": "wood",
+    "adjective": "무거운",
+    "description": "무거운 wood 상자",
+    "properties": {
+      "density": 0.6,
+      "friction": 0.5,
+      "stiffness": 12,
+      "fragility": 0.2
+    }
+  },
+  {
+    "object": "책",
+    "material": "fabric",
+    "adjective": "무거운",
+    "description": "무거운 fabric 책",
+    "properties": {
+      "density": 0.3,
+      "friction": 0.7,
+      "stiffness": 0.1,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "인형",
+    "material": "metal",
+    "adjective": "가벼운",
+    "description": "가벼운 metal 인형",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "책",
+    "material": "ceramic",
+    "adjective": "부드러운",
+    "description": "부드러운 ceramic 책",
+    "properties": {
+      "density": 2.3,
+      "friction": 0.3,
+      "stiffness": 100,
+      "fragility": 0.8
+    }
+  },
+  {
+    "object": "그릇",
+    "material": "rubber",
+    "adjective": "작은",
+    "description": "작은 rubber 그릇",
+    "properties": {
+      "density": 1.5,
+      "friction": 0.8,
+      "stiffness": 0.01,
+      "fragility": 0.05
+    }
+  },
+  {
+    "object": "펜",
+    "material": "plastic",
+    "adjective": "작은",
+    "description": "작은 plastic 펜",
+    "properties": {
+      "density": 1.2,
+      "friction": 0.4,
+      "stiffness": 3,
+      "fragility": 0.3
+    }
+  },
+  {
+    "object": "책",
+    "material": "plastic",
+    "adjective": "가벼운",
+    "description": "가벼운 plastic 책",
+    "properties": {
+      "density": 1.2,
+      "friction": 0.4,
+      "stiffness": 3,
+      "fragility": 0.3
+    }
+  },
+  {
+    "object": "접시",
+    "material": "wood",
+    "adjective": "깨지기쉬운",
+    "description": "깨지기쉬운 wood 접시",
+    "properties": {
+      "density": 0.6,
+      "friction": 0.5,
+      "stiffness": 12,
+      "fragility": 0.2
+    }
+  },
+  {
+    "object": "펜",
+    "material": "metal",
+    "adjective": "깨지기쉬운",
+    "description": "깨지기쉬운 metal 펜",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "블록",
+    "material": "ceramic",
+    "adjective": "깨지기쉬운",
+    "description": "깨지기쉬운 ceramic 블록",
+    "properties": {
+      "density": 2.3,
+      "friction": 0.3,
+      "stiffness": 100,
+      "fragility": 0.8
+    }
+  },
+  {
+    "object": "인형",
+    "material": "ceramic",
+    "adjective": "가벼운",
+    "description": "가벼운 ceramic 인형",
+    "properties": {
+      "density": 2.3,
+      "friction": 0.3,
+      "stiffness": 100,
+      "fragility": 0.8
+    }
+  },
+  {
+    "object": "접시",
+    "material": "glass",
+    "adjective": "작은",
+    "description": "작은 glass 접시",
+    "properties": {
+      "density": 2.5,
+      "friction": 0.2,
+      "stiffness": 70,
+      "fragility": 0.9
+    }
+  },
+  {
+    "object": "상자",
+    "material": "wood",
+    "adjective": "큰",
+    "description": "큰 wood 상자",
+    "properties": {
+      "density": 0.6,
+      "friction": 0.5,
+      "stiffness": 12,
+      "fragility": 0.2
+    }
+  },
+  {
+    "object": "컵",
+    "material": "plastic",
+    "adjective": "부드러운",
+    "description": "부드러운 plastic 컵",
+    "properties": {
+      "density": 1.2,
+      "friction": 0.4,
+      "stiffness": 3,
+      "fragility": 0.3
+    }
+  },
+  {
+    "object": "책",
+    "material": "metal",
+    "adjective": "가벼운",
+    "description": "가벼운 metal 책",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "블록",
+    "material": "fabric",
+    "adjective": "딱딱한",
+    "description": "딱딱한 fabric 블록",
+    "properties": {
+      "density": 0.3,
+      "friction": 0.7,
+      "stiffness": 0.1,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "펜",
+    "material": "plastic",
+    "adjective": "딱딱한",
+    "description": "딱딱한 plastic 펜",
+    "properties": {
+      "density": 1.2,
+      "friction": 0.4,
+      "stiffness": 3,
+      "fragility": 0.3
+    }
+  },
+  {
+    "object": "컵",
+    "material": "plastic",
+    "adjective": "거친",
+    "description": "거친 plastic 컵",
+    "properties": {
+      "density": 1.2,
+      "friction": 0.4,
+      "stiffness": 3,
+      "fragility": 0.3
+    }
+  },
+  {
+    "object": "인형",
+    "material": "metal",
+    "adjective": "미끄러운",
+    "description": "미끄러운 metal 인형",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "블록",
+    "material": "plastic",
+    "adjective": "거친",
+    "description": "거친 plastic 블록",
+    "properties": {
+      "density": 1.2,
+      "friction": 0.4,
+      "stiffness": 3,
+      "fragility": 0.3
+    }
+  },
+  {
+    "object": "공",
+    "material": "plastic",
+    "adjective": "거친",
+    "description": "거친 plastic 공",
+    "properties": {
+      "density": 1.2,
+      "friction": 0.4,
+      "stiffness": 3,
+      "fragility": 0.3
+    }
+  },
+  {
+    "object": "공",
+    "material": "fabric",
+    "adjective": "깨지기쉬운",
+    "description": "깨지기쉬운 fabric 공",
+    "properties": {
+      "density": 0.3,
+      "friction": 0.7,
+      "stiffness": 0.1,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "컵",
+    "material": "glass",
+    "adjective": "큰",
+    "description": "큰 glass 컵",
+    "properties": {
+      "density": 2.5,
+      "friction": 0.2,
+      "stiffness": 70,
+      "fragility": 0.9
+    }
+  },
+  {
+    "object": "공",
+    "material": "ceramic",
+    "adjective": "거친",
+    "description": "거친 ceramic 공",
+    "properties": {
+      "density": 2.3,
+      "friction": 0.3,
+      "stiffness": 100,
+      "fragility": 0.8
+    }
+  },
+  {
+    "object": "상자",
+    "material": "ceramic",
+    "adjective": "딱딱한",
+    "description": "딱딱한 ceramic 상자",
+    "properties": {
+      "density": 2.3,
+      "friction": 0.3,
+      "stiffness": 100,
+      "fragility": 0.8
+    }
+  },
+  {
+    "object": "병",
+    "material": "ceramic",
+    "adjective": "미끄러운",
+    "description": "미끄러운 ceramic 병",
+    "properties": {
+      "density": 2.3,
+      "friction": 0.3,
+      "stiffness": 100,
+      "fragility": 0.8
+    }
+  },
+  {
+    "object": "펜",
+    "material": "fabric",
+    "adjective": "큰",
+    "description": "큰 fabric 펜",
+    "properties": {
+      "density": 0.3,
+      "friction": 0.7,
+      "stiffness": 0.1,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "책",
+    "material": "metal",
+    "adjective": "미끄러운",
+    "description": "미끄러운 metal 책",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "접시",
+    "material": "glass",
+    "adjective": "깨지기쉬운",
+    "description": "깨지기쉬운 glass 접시",
+    "properties": {
+      "density": 2.5,
+      "friction": 0.2,
+      "stiffness": 70,
+      "fragility": 0.9
+    }
+  },
+  {
+    "object": "블록",
+    "material": "ceramic",
+    "adjective": "무거운",
+    "description": "무거운 ceramic 블록",
+    "properties": {
+      "density": 2.3,
+      "friction": 0.3,
+      "stiffness": 100,
+      "fragility": 0.8
+    }
+  },
+  {
+    "object": "접시",
+    "material": "ceramic",
+    "adjective": "부드러운",
+    "description": "부드러운 ceramic 접시",
+    "properties": {
+      "density": 2.3,
+      "friction": 0.3,
+      "stiffness": 100,
+      "fragility": 0.8
+    }
+  },
+  {
+    "object": "상자",
+    "material": "metal",
+    "adjective": "큰",
+    "description": "큰 metal 상자",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "블록",
+    "material": "glass",
+    "adjective": "딱딱한",
+    "description": "딱딱한 glass 블록",
+    "properties": {
+      "density": 2.5,
+      "friction": 0.2,
+      "stiffness": 70,
+      "fragility": 0.9
+    }
+  },
+  {
+    "object": "접시",
+    "material": "plastic",
+    "adjective": "부드러운",
+    "description": "부드러운 plastic 접시",
+    "properties": {
+      "density": 1.2,
+      "friction": 0.4,
+      "stiffness": 3,
+      "fragility": 0.3
+    }
+  },
+  {
+    "object": "컵",
+    "material": "wood",
+    "adjective": "거친",
+    "description": "거친 wood 컵",
+    "properties": {
+      "density": 0.6,
+      "friction": 0.5,
+      "stiffness": 12,
+      "fragility": 0.2
+    }
+  },
+  {
+    "object": "공",
+    "material": "metal",
+    "adjective": "가벼운",
+    "description": "가벼운 metal 공",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "책",
+    "material": "metal",
+    "adjective": "미끄러운",
+    "description": "미끄러운 metal 책",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "공",
+    "material": "ceramic",
+    "adjective": "부드러운",
+    "description": "부드러운 ceramic 공",
+    "properties": {
+      "density": 2.3,
+      "friction": 0.3,
+      "stiffness": 100,
+      "fragility": 0.8
+    }
+  },
+  {
+    "object": "상자",
+    "material": "glass",
+    "adjective": "작은",
+    "description": "작은 glass 상자",
+    "properties": {
+      "density": 2.5,
+      "friction": 0.2,
+      "stiffness": 70,
+      "fragility": 0.9
+    }
+  },
+  {
+    "object": "그릇",
+    "material": "metal",
+    "adjective": "작은",
+    "description": "작은 metal 그릇",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "공",
+    "material": "fabric",
+    "adjective": "깨지기쉬운",
+    "description": "깨지기쉬운 fabric 공",
+    "properties": {
+      "density": 0.3,
+      "friction": 0.7,
+      "stiffness": 0.1,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "상자",
+    "material": "plastic",
+    "adjective": "미끄러운",
+    "description": "미끄러운 plastic 상자",
+    "properties": {
+      "density": 1.2,
+      "friction": 0.4,
+      "stiffness": 3,
+      "fragility": 0.3
+    }
+  },
+  {
+    "object": "병",
+    "material": "wood",
+    "adjective": "작은",
+    "description": "작은 wood 병",
+    "properties": {
+      "density": 0.6,
+      "friction": 0.5,
+      "stiffness": 12,
+      "fragility": 0.2
+    }
+  },
+  {
+    "object": "책",
+    "material": "fabric",
+    "adjective": "부드러운",
+    "description": "부드러운 fabric 책",
+    "properties": {
+      "density": 0.3,
+      "friction": 0.7,
+      "stiffness": 0.1,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "책",
+    "material": "ceramic",
+    "adjective": "부드러운",
+    "description": "부드러운 ceramic 책",
+    "properties": {
+      "density": 2.3,
+      "friction": 0.3,
+      "stiffness": 100,
+      "fragility": 0.8
+    }
+  },
+  {
+    "object": "접시",
+    "material": "fabric",
+    "adjective": "깨지기쉬운",
+    "description": "깨지기쉬운 fabric 접시",
+    "properties": {
+      "density": 0.3,
+      "friction": 0.7,
+      "stiffness": 0.1,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "인형",
+    "material": "glass",
+    "adjective": "큰",
+    "description": "큰 glass 인형",
+    "properties": {
+      "density": 2.5,
+      "friction": 0.2,
+      "stiffness": 70,
+      "fragility": 0.9
+    }
+  },
+  {
+    "object": "공",
+    "material": "metal",
+    "adjective": "가벼운",
+    "description": "가벼운 metal 공",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "상자",
+    "material": "rubber",
+    "adjective": "미끄러운",
+    "description": "미끄러운 rubber 상자",
+    "properties": {
+      "density": 1.5,
+      "friction": 0.8,
+      "stiffness": 0.01,
+      "fragility": 0.05
+    }
+  },
+  {
+    "object": "컵",
+    "material": "metal",
+    "adjective": "깨지기쉬운",
+    "description": "깨지기쉬운 metal 컵",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "접시",
+    "material": "plastic",
+    "adjective": "가벼운",
+    "description": "가벼운 plastic 접시",
+    "properties": {
+      "density": 1.2,
+      "friction": 0.4,
+      "stiffness": 3,
+      "fragility": 0.3
+    }
+  },
+  {
+    "object": "펜",
+    "material": "fabric",
+    "adjective": "작은",
+    "description": "작은 fabric 펜",
+    "properties": {
+      "density": 0.3,
+      "friction": 0.7,
+      "stiffness": 0.1,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "접시",
+    "material": "wood",
+    "adjective": "무거운",
+    "description": "무거운 wood 접시",
+    "properties": {
+      "density": 0.6,
+      "friction": 0.5,
+      "stiffness": 12,
+      "fragility": 0.2
+    }
+  },
+  {
+    "object": "접시",
+    "material": "metal",
+    "adjective": "딱딱한",
+    "description": "딱딱한 metal 접시",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "병",
+    "material": "plastic",
+    "adjective": "딱딱한",
+    "description": "딱딱한 plastic 병",
+    "properties": {
+      "density": 1.2,
+      "friction": 0.4,
+      "stiffness": 3,
+      "fragility": 0.3
+    }
+  },
+  {
+    "object": "펜",
+    "material": "metal",
+    "adjective": "작은",
+    "description": "작은 metal 펜",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "그릇",
+    "material": "rubber",
+    "adjective": "무거운",
+    "description": "무거운 rubber 그릇",
+    "properties": {
+      "density": 1.5,
+      "friction": 0.8,
+      "stiffness": 0.01,
+      "fragility": 0.05
+    }
+  },
+  {
+    "object": "그릇",
+    "material": "metal",
+    "adjective": "미끄러운",
+    "description": "미끄러운 metal 그릇",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "책",
+    "material": "plastic",
+    "adjective": "미끄러운",
+    "description": "미끄러운 plastic 책",
+    "properties": {
+      "density": 1.2,
+      "friction": 0.4,
+      "stiffness": 3,
+      "fragility": 0.3
+    }
+  },
+  {
+    "object": "컵",
+    "material": "rubber",
+    "adjective": "거친",
+    "description": "거친 rubber 컵",
+    "properties": {
+      "density": 1.5,
+      "friction": 0.8,
+      "stiffness": 0.01,
+      "fragility": 0.05
+    }
+  },
+  {
+    "object": "그릇",
+    "material": "fabric",
+    "adjective": "큰",
+    "description": "큰 fabric 그릇",
+    "properties": {
+      "density": 0.3,
+      "friction": 0.7,
+      "stiffness": 0.1,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "인형",
+    "material": "plastic",
+    "adjective": "깨지기쉬운",
+    "description": "깨지기쉬운 plastic 인형",
+    "properties": {
+      "density": 1.2,
+      "friction": 0.4,
+      "stiffness": 3,
+      "fragility": 0.3
+    }
+  },
+  {
+    "object": "상자",
+    "material": "metal",
+    "adjective": "무거운",
+    "description": "무거운 metal 상자",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "인형",
+    "material": "metal",
+    "adjective": "부드러운",
+    "description": "부드러운 metal 인형",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  },
+  {
+    "object": "그릇",
+    "material": "ceramic",
+    "adjective": "작은",
+    "description": "작은 ceramic 그릇",
+    "properties": {
+      "density": 2.3,
+      "friction": 0.3,
+      "stiffness": 100,
+      "fragility": 0.8
+    }
+  },
+  {
+    "object": "블록",
+    "material": "rubber",
+    "adjective": "가벼운",
+    "description": "가벼운 rubber 블록",
+    "properties": {
+      "density": 1.5,
+      "friction": 0.8,
+      "stiffness": 0.01,
+      "fragility": 0.05
+    }
+  },
+  {
+    "object": "공",
+    "material": "metal",
+    "adjective": "깨지기쉬운",
+    "description": "깨지기쉬운 metal 공",
+    "properties": {
+      "density": 7.8,
+      "friction": 0.6,
+      "stiffness": 200,
+      "fragility": 0.1
+    }
+  }
+]

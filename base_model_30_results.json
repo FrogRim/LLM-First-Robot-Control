@@ -1,0 +1,222 @@
+{
+  "model_name": "Base Model (No Fine-tuning)",
+  "total_samples": 30,
+  "json_parse_success": 30,
+  "json_parse_rate_percent": 100.0,
+  "avg_inference_time_ms": 9308.067814509073,
+  "min_inference_time_ms": 8944.900751113892,
+  "max_inference_time_ms": 10368.78252029419,
+  "avg_confidence": 0.85,
+  "details": [
+    {
+      "sample_idx": 0,
+      "json_valid": true,
+      "predicted_material": "rigid",
+      "inference_time_ms": 10368.78252029419,
+      "raw_text_preview": "JSON valid"
+    },
+    {
+      "sample_idx": 1,
+      "json_valid": true,
+      "predicted_material": "ceramic",
+      "inference_time_ms": 9608.004808425903,
+      "raw_text_preview": "JSON valid"
+    },
+    {
+      "sample_idx": 2,
+      "json_valid": true,
+      "predicted_material": "glass",
+      "inference_time_ms": 9419.675588607788,
+      "raw_text_preview": "JSON valid"
+    },
+    {
+      "sample_idx": 3,
+      "json_valid": true,
+      "predicted_material": "unknown",
+      "inference_time_ms": 9325.792789459229,
+      "raw_text_preview": "JSON valid"
+    },
+    {
+      "sample_idx": 4,
+      "json_valid": true,
+      "predicted_material": "glass",
+      "inference_time_ms": 9662.670373916626,
+      "raw_text_preview": "JSON valid"
+    },
+    {
+      "sample_idx": 5,
+      "json_valid": true,
+      "predicted_material": "unknown",
+      "inference_time_ms": 9612.600564956665,
+      "raw_text_preview": "JSON valid"
+    },
+    {
+      "sample_idx": 6,
+      "json_valid": true,
+      "predicted_material": "metal",
+      "inference_time_ms": 9486.603498458862,
+      "raw_text_preview": "JSON valid"
+    },
+    {
+      "sample_idx": 7,
+      "json_valid": true,
+      "predicted_material": "rubber",
+      "inference_time_ms": 9673.230171203613,
+      "raw_text_preview": "JSON valid"
+    },
+    {
+      "sample_idx": 8,
+      "json_valid": true,
+      "predicted_material": "soft",
+      "inference_time_ms": 9412.012100219727,
+      "raw_text_preview": "JSON valid"
+    },
+    {
+      "sample_idx": 9,
+      "json_valid": true,
+      "predicted_material": "plastic",
+      "inference_time_ms": 9588.077068328857,
+      "raw_text_preview": "JSON valid"
+    },
+    {
+      "sample_idx": 10,
+      "json_valid": true,
+      "predicted_material": "lightweight plastic",
+      "inference_time_ms": 9231.831073760986,
+      "raw_text_preview": "JSON valid"
+    },
+    {
+      "sample_idx": 11,
+      "json_valid": true,
+      "predicted_material": "ceramic",
+      "inference_time_ms": 9199.260711669922,
+      "raw_text_preview": "JSON valid"
+    },
+    {
+      "sample_idx": 12,
+      "json_valid": true,
+      "predicted_material": "ceramic",
+      "inference_time_ms": 9261.33418083191,
+      "raw_text_preview": "JSON valid"
+    },
+    {
+      "sample_idx": 13,
+      "json_valid": true,
+      "predicted_material": "metal",
+      "inference_time_ms": 8944.900751113892,
+      "raw_text_preview": "JSON valid"
+    },
+    {
+      "sample_idx": 14,
+      "json_valid": true,
+      "predicted_material": "unknown",
+      "inference_time_ms": 9134.275913238525,
+      "raw_text_preview": "JSON valid"
+    },
+    {
+      "sample_idx": 15,
+      "json_valid": true,
+      "predicted_material": "unknown",
+      "inference_time_ms": 9139.001369476318,
+      "raw_text_preview": "JSON valid"
+    },
+    {
+      "sample_idx": 16,
+      "json_valid": true,
+      "predicted_material": "rigid",
+      "inference_time_ms": 9320.002555847168,
+      "raw_text_preview": "JSON valid"
+    },
+    {
+      "sample_idx": 17,
+      "json_valid": true,
+      "predicted_material": "glass",
+      "inference_time_ms": 8999.182939529419,
+      "raw_text_preview": "JSON valid"
+    },
+    {
+      "sample_idx": 18,
+      "json_valid": true,
+      "predicted_material": "lightweight plastic",
+      "inference_time_ms": 9104.329586029053,
+      "raw_text_preview": "JSON valid"
+    },
+    {
+      "sample_idx": 19,
+      "json_valid": true,
+      "predicted_material": "rubber",
+      "inference_time_ms": 9126.16229057312,
+      "raw_text_preview": "JSON valid"
+    },
+    {
+      "sample_idx": 20,
+      "json_valid": true,
+      "predicted_material": "rigid",
+      "inference_time_ms": 9095.170259475708,
+      "raw_text_preview": "JSON valid"
+    },
+    {
+      "sample_idx": 21,
+      "json_valid": true,
+      "predicted_material": "fabric",
+      "inference_time_ms": 9291.164875030518,
+      "raw_text_preview": "JSON valid"
+    },
+    {
+      "sample_idx": 22,
+      "json_valid": true,
+      "predicted_material": "metal",
+      "inference_time_ms": 9082.40270614624,
+      "raw_text_preview": "JSON valid"
+    },
+    {
+      "sample_idx": 23,
+      "json_valid": true,
+      "predicted_material": "rubber",
+      "inference_time_ms": 9159.480094909668,
+      "raw_text_preview": "JSON valid"
+    },
+    {
+      "sample_idx": 24,
+      "json_valid": true,
+      "predicted_material": "plastic",
+      "inference_time_ms": 9224.964618682861,
+      "raw_text_preview": "JSON valid"
+    },
+    {
+      "sample_idx": 25,
+      "json_valid": true,
+      "predicted_material": "fabric",
+      "inference_time_ms": 8983.104705810547,
+      "raw_text_preview": "JSON valid"
+    },
+    {
+      "sample_idx": 26,
+      "json_valid": true,
+      "predicted_material": "rigid",
+      "inference_time_ms": 9342.32759475708,
+      "raw_text_preview": "JSON valid"
+    },
+    {
+      "sample_idx": 27,
+      "json_valid": true,
+      "predicted_material": "ceramic",
+      "inference_time_ms": 9053.898572921753,
+      "raw_text_preview": "JSON valid"
+    },
+    {
+      "sample_idx": 28,
+      "json_valid": true,
+      "predicted_material": "ceramic",
+      "inference_time_ms": 9152.143955230713,
+      "raw_text_preview": "JSON valid"
+    },
+    {
+      "sample_idx": 29,
+      "json_valid": true,
+      "predicted_material": "wood",
+      "inference_time_ms": 9239.646196365356,
+      "raw_text_preview": "JSON valid"
+    }
+  ]
+}

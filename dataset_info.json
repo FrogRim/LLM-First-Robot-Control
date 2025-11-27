@@ -1,0 +1,32 @@
+{
+  "dataset_name": "DROID Physics-Aware Robot Control",
+  "version": "1.0.0",
+  "purpose": "Fine-tuning LLMs for physical domain robot control",
+  "base_dataset": "DROID (Distributed Robot Interaction Dataset)",
+  "target_robot": "Franka Emika Panda",
+  "simulation_environment": "Genesis AI",
+  "total_samples": 60,
+  "train_samples": 51,
+  "test_samples": 9,
+  "materials_covered": [
+    "plastic",
+    "metal",
+    "glass",
+    "wood",
+    "rubber",
+    "ceramic",
+    "fabric"
+  ],
+  "output_format": "JSON (physical_analysis + control_parameters + reasoning + affordance)",
+  "recommended_models": [
+    "mistralai/Mistral-7B-v0.1",
+    "meta-llama/Llama-2-7b-hf",
+    "microsoft/phi-2"
+  ],
+  "training_method": "QLoRA (4-bit quantization recommended)",
+  "estimated_training_time": "12-18 hours on RTX 3090",
+  "formats": {
+    "alpaca": "Recommended for instruction tuning (Axolotl, TRL)",
+    "sharegpt": "For conversational models (ChatML compatible)"
+  }
+}

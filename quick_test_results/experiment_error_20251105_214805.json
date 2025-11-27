@@ -1,0 +1,23 @@
+{
+  "error": "Scene.add_entity() got an unexpected keyword argument 'pos'",
+  "timestamp": "2025-11-05T21:48:05.899892",
+  "partial_results": {
+    "experiment_config": {
+      "num_runs_per_scenario": 3,
+      "enable_genesis": true,
+      "timestamp": "2025-11-05T21:48:05.250273",
+      "controllers": [
+        "Rule-Based",
+        "RL-Based",
+        "LLM-First"
+      ],
+      "scenarios": [
+        "object_sorting",
+        "multi_step_rearrangement",
+        "physical_property_reasoning"
+      ]
+    },
+    "results": {},
+    "performance_comparison": {}
+  }
+}

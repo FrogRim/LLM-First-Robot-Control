@@ -1,0 +1,22 @@
+{
+  "conversion_summary": {
+    "total_episodes": 3,
+    "successful_conversions": 3,
+    "failed_conversions": 0,
+    "success_rate": 1.0
+  },
+  "performance_metrics": {
+    "avg_trajectory_length": 102.33333333333333,
+    "avg_processing_time_seconds": 0.0061228275299072266,
+    "total_processing_time": 0.01836848258972168
+  },
+  "conversion_details": {
+    "coordinate_transform": "DROID ROS → Genesis AI",
+    "kinematic_validation": "Franka Panda joint limits",
+    "trajectory_processing": "Resampling + Smoothing at 100Hz",
+    "physics_mapping": "Material-based property conversion",
+    "language_processing": "LLM-First annotation generation"
+  },
+  "output_location": "/root/gen/converted_episodes",
+  "report_date": "2025-10-07 22:37:01"
+}

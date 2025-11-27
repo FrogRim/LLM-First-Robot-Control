@@ -1,0 +1,81 @@
+# PhysicalAI → Genesis+Franka 변환 파이프라인 기본 설정
+
+# 데이터 처리 설정
+data:
+  batch_size: 32
+  max_workers: 4
+  cache_enabled: true
+  adapter_type: "physicalai"
+  adapter_config:
+    supported_formats: [".h5", ".hdf5", ".json"]
+    streaming_enabled: true
+
+# 물리 변환 설정
+physics:
+  accuracy_threshold: 0.95
+  validation_enabled: true
+  target_frequency: 100.0  # Hz
+  physics_config:
+    enable_cross_validation: true
+    tolerance_levels:
+      mass: 0.01
+      friction: 0.1
+      stiffness: 0.2
+
+  trajectory_config:
+    smoothing_factor: 0.1
+    outlier_threshold: 3.0
+    enable_filtering: true
+
+# 언어 생성 설정
+language:
+  complexity_level: "intermediate"  # simple, intermediate, advanced, technical
+  quality_threshold: 0.7
+  llm_enhancement: false
+
+  template_config:
+    default_templates_enabled: true
+    custom_template_path: "./templates"
+
+  llm_config:
+    model_name: "gpt-4"
+    max_tokens: 150
+    temperature: 0.3
+
+  qa_config:
+    minimum_readability: 0.6
+    minimum_technical_accuracy: 0.5
+    minimum_coherence: 0.7
+
+# 품질 관리 설정
+quality:
+  enabled: true
+  overall_threshold: 0.6
+  validation_rules:
+    max_length: 200
+    min_length: 10
+    required_punctuation: ["."]
+
+# 시스템 설정
+system:
+  log_level: "INFO"
+  max_memory_usage: 0.8
+  temp_directory: "/tmp/claude"
+
+# 모니터링 설정
+monitoring:
+  enabled: true
+  collection_interval: 10  # seconds
+  retention_days: 30
+
+  alerts:
+    high_cpu_threshold: 80.0
+    high_memory_threshold: 85.0
+    low_disk_threshold: 90.0
+
+# 출력 설정
+output:
+  format: "json"  # json, yaml, hdf5
+  compression_enabled: true
+  include_metadata: true
+  save_intermediate_results: false

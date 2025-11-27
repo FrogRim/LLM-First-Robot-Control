@@ -1,0 +1,42 @@
+# 개발 환경 설정
+
+# 개발용 데이터 설정 (성능보다 디버깅 중심)
+data:
+  batch_size: 8
+  max_workers: 2
+  cache_enabled: true
+
+# 물리 변환 설정 (더 상세한 로깅)
+physics:
+  accuracy_threshold: 0.90  # 개발 중에는 낮춤
+  validation_enabled: true
+  debug_mode: true
+
+# 언어 생성 설정
+language:
+  complexity_level: "simple"
+  quality_threshold: 0.6  # 개발 중에는 낮춤
+  llm_enhancement: false  # 개발 중에는 비활성화
+
+# 품질 관리 설정 (관대한 기준)
+quality:
+  enabled: true
+  overall_threshold: 0.5
+
+# 시스템 설정
+system:
+  log_level: "DEBUG"
+  max_memory_usage: 0.6
+
+# 모니터링 설정
+monitoring:
+  enabled: true
+  collection_interval: 5  # 더 자주 수집
+  retention_days: 7  # 짧은 보존 기간
+
+# 출력 설정
+output:
+  format: "json"
+  compression_enabled: false  # 압축 없이 디버깅 용이
+  include_metadata: true
+  save_intermediate_results: true  # 중간 결과 저장

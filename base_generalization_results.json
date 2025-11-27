@@ -1,0 +1,108 @@
+{
+  "test_type": "implicit_material_inference",
+  "total_cases": 7,
+  "correct_predictions": 4,
+  "accuracy_percent": 57.14285714285714,
+  "avg_confidence": 0.85,
+  "results": [
+    {
+      "test_case": "투명한 컵 (glass 추론 필요)",
+      "instruction": "Pick up the transparent cup and place it on the tray",
+      "keywords": [
+        "transparent",
+        "cup"
+      ],
+      "expected_material": "glass",
+      "predicted_material": "glass or plastic",
+      "confidence": 0.85,
+      "is_correct": true,
+      "json_valid": true,
+      "inference_time_ms": 9993.186473846436
+    },
+    {
+      "test_case": "무거운 반짝이는 도구 (metal 추론 필요)",
+      "instruction": "Grab the heavy shiny tool and put it in the box",
+      "keywords": [
+        "heavy",
+        "shiny",
+        "tool"
+      ],
+      "expected_material": "metal",
+      "predicted_material": "metal",
+      "confidence": 0.85,
+      "is_correct": true,
+      "json_valid": true,
+      "inference_time_ms": 9027.29344367981
+    },
+    {
+      "test_case": "깨지기 쉬운 접시 (ceramic 추론 필요)",
+      "instruction": "Carefully lift the fragile dish and set it on the shelf",
+      "keywords": [
+        "fragile",
+        "dish"
+      ],
+      "expected_material": "ceramic",
+      "predicted_material": "ceramic",
+      "confidence": 0.85,
+      "is_correct": true,
+      "json_valid": true,
+      "inference_time_ms": 9070.887565612793
+    },
+    {
+      "test_case": "가벼운 용기 (plastic 추론 필요)",
+      "instruction": "Pick up the lightweight container quickly",
+      "keywords": [
+        "lightweight",
+        "container"
+      ],
+      "expected_material": "plastic",
+      "predicted_material": "plastic",
+      "confidence": 0.85,
+      "is_correct": true,
+      "json_valid": true,
+      "inference_time_ms": 9232.072353363037
+    },
+    {
+      "test_case": "부드러운 천 (fabric 추론 필요)",
+      "instruction": "Gently grasp the soft cloth and move it aside",
+      "keywords": [
+        "soft",
+        "cloth"
+      ],
+      "expected_material": "fabric",
+      "predicted_material": "soft cloth",
+      "confidence": 0.85,
+      "is_correct": false,
+      "json_valid": true,
+      "inference_time_ms": 9057.981014251709
+    },
+    {
+      "test_case": "단단한 블록 (wood 추론 필요)",
+      "instruction": "Grab the solid block and position it in the holder",
+      "keywords": [
+        "solid",
+        "block"
+      ],
+      "expected_material": "wood",
+      "predicted_material": "solid material",
+      "confidence": 0.85,
+      "is_correct": false,
+      "json_valid": true,
+      "inference_time_ms": 9215.46983718872
+    },
+    {
+      "test_case": "유연한 튜브 (rubber 추론 필요)",
+      "instruction": "Pick up the flexible tube carefully",
+      "keywords": [
+        "flexible",
+        "tube"
+      ],
+      "expected_material": "rubber",
+      "predicted_material": "flexible plastic",
+      "confidence": 0.85,
+      "is_correct": false,
+      "json_valid": true,
+      "inference_time_ms": 8888.22340965271
+    }
+  ]
+}

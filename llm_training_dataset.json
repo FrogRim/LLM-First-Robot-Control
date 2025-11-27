@@ -1,0 +1,1658 @@
+[
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick up the object and place it in the container 0",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "plastic",
+        "mass_category": "light",
+        "friction_coefficient": "0.4-0.6 estimated",
+        "fragility": "normal",
+        "stiffness": "medium",
+        "confidence": 0.79
+      },
+      "control_parameters": {
+        "grip_force": 0.4,
+        "lift_speed": 0.6,
+        "approach_angle": 0.0,
+        "contact_force": 0.24,
+        "safety_margin": 0.8
+      },
+      "reasoning": "The object is likely made of plastic, which is lightweight and has normal friction. I recommend 0.4 N grip force to securely hold it without deformation. Lift speed of 0.6 m/s balances efficiency and safety.",
+      "affordance_assessment": {
+        "success_probability": 0.85,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick up the object and place it in the container 0",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "metal",
+        "mass_category": "heavy",
+        "friction_coefficient": "0.6-0.8 estimated",
+        "fragility": "robust",
+        "stiffness": "high",
+        "confidence": 0.9
+      },
+      "control_parameters": {
+        "grip_force": 0.7,
+        "lift_speed": 0.35,
+        "approach_angle": 0.0,
+        "contact_force": 0.42,
+        "safety_margin": 0.8
+      },
+      "reasoning": "Given the metallic nature of the object, I estimate higher mass and friction. Increased grip force (0.7 N) ensures secure grasp despite the weight. Slower lift speed (0.35 m/s) maintains stability.",
+      "affordance_assessment": {
+        "success_probability": 0.84,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick up the object and place it in the container 0",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "glass",
+        "mass_category": "medium",
+        "friction_coefficient": "0.2-0.3 estimated",
+        "fragility": "fragile",
+        "stiffness": "high",
+        "confidence": 0.76
+      },
+      "control_parameters": {
+        "grip_force": 0.3,
+        "lift_speed": 0.25,
+        "approach_angle": 0.0,
+        "contact_force": 0.18,
+        "safety_margin": 1.2
+      },
+      "reasoning": "The object appears to be glass, which is fragile and has low friction. I apply reduced grip force (0.3 N) to prevent breakage and slow lift speed (0.25 m/s) for maximum safety. Safety margin increased to 1.2000000000000002.",
+      "affordance_assessment": {
+        "success_probability": 0.9,
+        "risk_factors": [
+          "fragile_material"
+        ],
+        "recommended_approach": "careful_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick up the object and place it in the container 0",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "wood",
+        "mass_category": "medium",
+        "friction_coefficient": "0.6-0.8 estimated",
+        "fragility": "normal",
+        "stiffness": "medium",
+        "confidence": 0.92
+      },
+      "control_parameters": {
+        "grip_force": 0.5,
+        "lift_speed": 0.5,
+        "approach_angle": 0.0,
+        "contact_force": 0.3,
+        "safety_margin": 0.8
+      },
+      "reasoning": "This wooden object has medium mass and high friction. Standard grip force (0.5 N) and lift speed (0.5 m/s) are appropriate for reliable manipulation.",
+      "affordance_assessment": {
+        "success_probability": 0.83,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick up the object and place it in the container 0",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "rubber",
+        "mass_category": "light",
+        "friction_coefficient": "0.8-1.0 estimated",
+        "fragility": "robust",
+        "stiffness": "low",
+        "confidence": 0.86
+      },
+      "control_parameters": {
+        "grip_force": 0.35,
+        "lift_speed": 0.65,
+        "approach_angle": 0.0,
+        "contact_force": 0.21,
+        "safety_margin": 0.8
+      },
+      "reasoning": "The rubber object is lightweight with very high friction. Lower grip force (0.35 N) is sufficient due to excellent surface grip. Faster lift speed (0.65 m/s) is safe given the material's resilience.",
+      "affordance_assessment": {
+        "success_probability": 0.86,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick up the object and place it in the container 0",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "ceramic",
+        "mass_category": "medium",
+        "friction_coefficient": "0.4-0.6 estimated",
+        "fragility": "fragile",
+        "stiffness": "high",
+        "confidence": 0.93
+      },
+      "control_parameters": {
+        "grip_force": 0.33,
+        "lift_speed": 0.3,
+        "approach_angle": 0.0,
+        "contact_force": 0.2,
+        "safety_margin": 1.2
+      },
+      "reasoning": "Ceramic materials are fragile despite medium mass. I reduce grip force to 0.33 N and lift speed to 0.3 m/s to minimize breakage risk. Safety margin set to 1.2000000000000002.",
+      "affordance_assessment": {
+        "success_probability": 0.9,
+        "risk_factors": [
+          "fragile_material"
+        ],
+        "recommended_approach": "careful_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick up the object and place it in the container 0",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "fabric",
+        "mass_category": "very_light",
+        "friction_coefficient": "0.4-0.6 estimated",
+        "fragility": "robust",
+        "stiffness": "very_low",
+        "confidence": 0.94
+      },
+      "control_parameters": {
+        "grip_force": 0.25,
+        "lift_speed": 0.75,
+        "approach_angle": 0.0,
+        "contact_force": 0.15,
+        "safety_margin": 0.8
+      },
+      "reasoning": "The fabric object is very lightweight and flexible. Minimal grip force (0.25 N) prevents damage while faster lift speed (0.75 m/s) is safe due to the material's robustness.",
+      "affordance_assessment": {
+        "success_probability": 0.81,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick the plastic bottle and drop it in the tray",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "plastic",
+        "mass_category": "light",
+        "friction_coefficient": "0.4-0.6 estimated",
+        "fragility": "normal",
+        "stiffness": "medium",
+        "confidence": 0.89
+      },
+      "control_parameters": {
+        "grip_force": 0.4,
+        "lift_speed": 0.6,
+        "approach_angle": 0.0,
+        "contact_force": 0.24,
+        "safety_margin": 0.8
+      },
+      "reasoning": "The bottle is likely made of plastic, which is lightweight and has normal friction. I recommend 0.4 N grip force to securely hold it without deformation. Lift speed of 0.6 m/s balances efficiency and safety.",
+      "affordance_assessment": {
+        "success_probability": 0.83,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick the plastic bottle and drop it in the tray",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "metal",
+        "mass_category": "heavy",
+        "friction_coefficient": "0.6-0.8 estimated",
+        "fragility": "robust",
+        "stiffness": "high",
+        "confidence": 0.77
+      },
+      "control_parameters": {
+        "grip_force": 0.7,
+        "lift_speed": 0.35,
+        "approach_angle": 0.0,
+        "contact_force": 0.42,
+        "safety_margin": 0.8
+      },
+      "reasoning": "Given the metallic nature of the bottle, I estimate higher mass and friction. Increased grip force (0.7 N) ensures secure grasp despite the weight. Slower lift speed (0.35 m/s) maintains stability.",
+      "affordance_assessment": {
+        "success_probability": 0.89,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick the plastic bottle and drop it in the tray",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "glass",
+        "mass_category": "medium",
+        "friction_coefficient": "0.2-0.3 estimated",
+        "fragility": "fragile",
+        "stiffness": "high",
+        "confidence": 0.93
+      },
+      "control_parameters": {
+        "grip_force": 0.3,
+        "lift_speed": 0.25,
+        "approach_angle": 0.0,
+        "contact_force": 0.18,
+        "safety_margin": 1.2
+      },
+      "reasoning": "The bottle appears to be glass, which is fragile and has low friction. I apply reduced grip force (0.3 N) to prevent breakage and slow lift speed (0.25 m/s) for maximum safety. Safety margin increased to 1.2000000000000002.",
+      "affordance_assessment": {
+        "success_probability": 0.82,
+        "risk_factors": [
+          "fragile_material"
+        ],
+        "recommended_approach": "careful_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick the plastic bottle and drop it in the tray",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "wood",
+        "mass_category": "medium",
+        "friction_coefficient": "0.6-0.8 estimated",
+        "fragility": "normal",
+        "stiffness": "medium",
+        "confidence": 0.87
+      },
+      "control_parameters": {
+        "grip_force": 0.5,
+        "lift_speed": 0.5,
+        "approach_angle": 0.0,
+        "contact_force": 0.3,
+        "safety_margin": 0.8
+      },
+      "reasoning": "This wooden bottle has medium mass and high friction. Standard grip force (0.5 N) and lift speed (0.5 m/s) are appropriate for reliable manipulation.",
+      "affordance_assessment": {
+        "success_probability": 0.94,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick the plastic bottle and drop it in the tray",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "rubber",
+        "mass_category": "light",
+        "friction_coefficient": "0.8-1.0 estimated",
+        "fragility": "robust",
+        "stiffness": "low",
+        "confidence": 0.77
+      },
+      "control_parameters": {
+        "grip_force": 0.35,
+        "lift_speed": 0.65,
+        "approach_angle": 0.0,
+        "contact_force": 0.21,
+        "safety_margin": 0.8
+      },
+      "reasoning": "The rubber bottle is lightweight with very high friction. Lower grip force (0.35 N) is sufficient due to excellent surface grip. Faster lift speed (0.65 m/s) is safe given the material's resilience.",
+      "affordance_assessment": {
+        "success_probability": 0.92,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick the plastic bottle and drop it in the tray",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "ceramic",
+        "mass_category": "medium",
+        "friction_coefficient": "0.4-0.6 estimated",
+        "fragility": "fragile",
+        "stiffness": "high",
+        "confidence": 0.9
+      },
+      "control_parameters": {
+        "grip_force": 0.33,
+        "lift_speed": 0.3,
+        "approach_angle": 0.0,
+        "contact_force": 0.2,
+        "safety_margin": 1.2
+      },
+      "reasoning": "Ceramic materials are fragile despite medium mass. I reduce grip force to 0.33 N and lift speed to 0.3 m/s to minimize breakage risk. Safety margin set to 1.2000000000000002.",
+      "affordance_assessment": {
+        "success_probability": 0.95,
+        "risk_factors": [
+          "fragile_material"
+        ],
+        "recommended_approach": "careful_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick the plastic bottle and drop it in the tray",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "fabric",
+        "mass_category": "very_light",
+        "friction_coefficient": "0.4-0.6 estimated",
+        "fragility": "robust",
+        "stiffness": "very_low",
+        "confidence": 0.94
+      },
+      "control_parameters": {
+        "grip_force": 0.25,
+        "lift_speed": 0.75,
+        "approach_angle": 0.0,
+        "contact_force": 0.15,
+        "safety_margin": 0.8
+      },
+      "reasoning": "The fabric bottle is very lightweight and flexible. Minimal grip force (0.25 N) prevents damage while faster lift speed (0.75 m/s) is safe due to the material's robustness.",
+      "affordance_assessment": {
+        "success_probability": 0.93,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Lift the wooden block and move it to the tray",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "plastic",
+        "mass_category": "light",
+        "friction_coefficient": "0.4-0.6 estimated",
+        "fragility": "normal",
+        "stiffness": "medium",
+        "confidence": 0.94
+      },
+      "control_parameters": {
+        "grip_force": 0.4,
+        "lift_speed": 0.6,
+        "approach_angle": 0.0,
+        "contact_force": 0.24,
+        "safety_margin": 0.8
+      },
+      "reasoning": "The block is likely made of plastic, which is lightweight and has normal friction. I recommend 0.4 N grip force to securely hold it without deformation. Lift speed of 0.6 m/s balances efficiency and safety.",
+      "affordance_assessment": {
+        "success_probability": 0.83,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Lift the wooden block and move it to the tray",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "metal",
+        "mass_category": "heavy",
+        "friction_coefficient": "0.6-0.8 estimated",
+        "fragility": "robust",
+        "stiffness": "high",
+        "confidence": 0.81
+      },
+      "control_parameters": {
+        "grip_force": 0.7,
+        "lift_speed": 0.35,
+        "approach_angle": 0.0,
+        "contact_force": 0.42,
+        "safety_margin": 0.8
+      },
+      "reasoning": "Given the metallic nature of the block, I estimate higher mass and friction. Increased grip force (0.7 N) ensures secure grasp despite the weight. Slower lift speed (0.35 m/s) maintains stability.",
+      "affordance_assessment": {
+        "success_probability": 0.82,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Lift the wooden block and move it to the tray",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "glass",
+        "mass_category": "medium",
+        "friction_coefficient": "0.2-0.3 estimated",
+        "fragility": "fragile",
+        "stiffness": "high",
+        "confidence": 0.84
+      },
+      "control_parameters": {
+        "grip_force": 0.3,
+        "lift_speed": 0.25,
+        "approach_angle": 0.0,
+        "contact_force": 0.18,
+        "safety_margin": 1.2
+      },
+      "reasoning": "The block appears to be glass, which is fragile and has low friction. I apply reduced grip force (0.3 N) to prevent breakage and slow lift speed (0.25 m/s) for maximum safety. Safety margin increased to 1.2000000000000002.",
+      "affordance_assessment": {
+        "success_probability": 0.81,
+        "risk_factors": [
+          "fragile_material"
+        ],
+        "recommended_approach": "careful_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Lift the wooden block and move it to the tray",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "wood",
+        "mass_category": "medium",
+        "friction_coefficient": "0.6-0.8 estimated",
+        "fragility": "normal",
+        "stiffness": "medium",
+        "confidence": 0.83
+      },
+      "control_parameters": {
+        "grip_force": 0.5,
+        "lift_speed": 0.5,
+        "approach_angle": 0.0,
+        "contact_force": 0.3,
+        "safety_margin": 0.8
+      },
+      "reasoning": "This wooden block has medium mass and high friction. Standard grip force (0.5 N) and lift speed (0.5 m/s) are appropriate for reliable manipulation.",
+      "affordance_assessment": {
+        "success_probability": 0.81,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Lift the wooden block and move it to the tray",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "rubber",
+        "mass_category": "light",
+        "friction_coefficient": "0.8-1.0 estimated",
+        "fragility": "robust",
+        "stiffness": "low",
+        "confidence": 0.94
+      },
+      "control_parameters": {
+        "grip_force": 0.35,
+        "lift_speed": 0.65,
+        "approach_angle": 0.0,
+        "contact_force": 0.21,
+        "safety_margin": 0.8
+      },
+      "reasoning": "The rubber block is lightweight with very high friction. Lower grip force (0.35 N) is sufficient due to excellent surface grip. Faster lift speed (0.65 m/s) is safe given the material's resilience.",
+      "affordance_assessment": {
+        "success_probability": 0.94,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Lift the wooden block and move it to the tray",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "ceramic",
+        "mass_category": "medium",
+        "friction_coefficient": "0.4-0.6 estimated",
+        "fragility": "fragile",
+        "stiffness": "high",
+        "confidence": 0.81
+      },
+      "control_parameters": {
+        "grip_force": 0.33,
+        "lift_speed": 0.3,
+        "approach_angle": 0.0,
+        "contact_force": 0.2,
+        "safety_margin": 1.2
+      },
+      "reasoning": "Ceramic materials are fragile despite medium mass. I reduce grip force to 0.33 N and lift speed to 0.3 m/s to minimize breakage risk. Safety margin set to 1.2000000000000002.",
+      "affordance_assessment": {
+        "success_probability": 0.92,
+        "risk_factors": [
+          "fragile_material"
+        ],
+        "recommended_approach": "careful_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick up the object and place it in the container 1",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "plastic",
+        "mass_category": "light",
+        "friction_coefficient": "0.4-0.6 estimated",
+        "fragility": "normal",
+        "stiffness": "medium",
+        "confidence": 0.94
+      },
+      "control_parameters": {
+        "grip_force": 0.4,
+        "lift_speed": 0.6,
+        "approach_angle": 0.0,
+        "contact_force": 0.24,
+        "safety_margin": 0.8
+      },
+      "reasoning": "The object is likely made of plastic, which is lightweight and has normal friction. I recommend 0.4 N grip force to securely hold it without deformation. Lift speed of 0.6 m/s balances efficiency and safety.",
+      "affordance_assessment": {
+        "success_probability": 0.84,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick up the object and place it in the container 1",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "metal",
+        "mass_category": "heavy",
+        "friction_coefficient": "0.6-0.8 estimated",
+        "fragility": "robust",
+        "stiffness": "high",
+        "confidence": 0.93
+      },
+      "control_parameters": {
+        "grip_force": 0.7,
+        "lift_speed": 0.35,
+        "approach_angle": 0.0,
+        "contact_force": 0.42,
+        "safety_margin": 0.8
+      },
+      "reasoning": "Given the metallic nature of the object, I estimate higher mass and friction. Increased grip force (0.7 N) ensures secure grasp despite the weight. Slower lift speed (0.35 m/s) maintains stability.",
+      "affordance_assessment": {
+        "success_probability": 0.8,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick up the object and place it in the container 1",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "glass",
+        "mass_category": "medium",
+        "friction_coefficient": "0.2-0.3 estimated",
+        "fragility": "fragile",
+        "stiffness": "high",
+        "confidence": 0.93
+      },
+      "control_parameters": {
+        "grip_force": 0.3,
+        "lift_speed": 0.25,
+        "approach_angle": 0.0,
+        "contact_force": 0.18,
+        "safety_margin": 1.2
+      },
+      "reasoning": "The object appears to be glass, which is fragile and has low friction. I apply reduced grip force (0.3 N) to prevent breakage and slow lift speed (0.25 m/s) for maximum safety. Safety margin increased to 1.2000000000000002.",
+      "affordance_assessment": {
+        "success_probability": 0.89,
+        "risk_factors": [
+          "fragile_material"
+        ],
+        "recommended_approach": "careful_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick up the object and place it in the container 1",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "wood",
+        "mass_category": "medium",
+        "friction_coefficient": "0.6-0.8 estimated",
+        "fragility": "normal",
+        "stiffness": "medium",
+        "confidence": 0.88
+      },
+      "control_parameters": {
+        "grip_force": 0.5,
+        "lift_speed": 0.5,
+        "approach_angle": 0.0,
+        "contact_force": 0.3,
+        "safety_margin": 0.8
+      },
+      "reasoning": "This wooden object has medium mass and high friction. Standard grip force (0.5 N) and lift speed (0.5 m/s) are appropriate for reliable manipulation.",
+      "affordance_assessment": {
+        "success_probability": 0.8,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick up the object and place it in the container 1",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "rubber",
+        "mass_category": "light",
+        "friction_coefficient": "0.8-1.0 estimated",
+        "fragility": "robust",
+        "stiffness": "low",
+        "confidence": 0.83
+      },
+      "control_parameters": {
+        "grip_force": 0.35,
+        "lift_speed": 0.65,
+        "approach_angle": 0.0,
+        "contact_force": 0.21,
+        "safety_margin": 0.8
+      },
+      "reasoning": "The rubber object is lightweight with very high friction. Lower grip force (0.35 N) is sufficient due to excellent surface grip. Faster lift speed (0.65 m/s) is safe given the material's resilience.",
+      "affordance_assessment": {
+        "success_probability": 0.93,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick up the object and place it in the container 1",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "ceramic",
+        "mass_category": "medium",
+        "friction_coefficient": "0.4-0.6 estimated",
+        "fragility": "fragile",
+        "stiffness": "high",
+        "confidence": 0.85
+      },
+      "control_parameters": {
+        "grip_force": 0.33,
+        "lift_speed": 0.3,
+        "approach_angle": 0.0,
+        "contact_force": 0.2,
+        "safety_margin": 1.2
+      },
+      "reasoning": "Ceramic materials are fragile despite medium mass. I reduce grip force to 0.33 N and lift speed to 0.3 m/s to minimize breakage risk. Safety margin set to 1.2000000000000002.",
+      "affordance_assessment": {
+        "success_probability": 0.82,
+        "risk_factors": [
+          "fragile_material"
+        ],
+        "recommended_approach": "careful_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick up the object and place it in the container 1",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "fabric",
+        "mass_category": "very_light",
+        "friction_coefficient": "0.4-0.6 estimated",
+        "fragility": "robust",
+        "stiffness": "very_low",
+        "confidence": 0.84
+      },
+      "control_parameters": {
+        "grip_force": 0.25,
+        "lift_speed": 0.75,
+        "approach_angle": 0.0,
+        "contact_force": 0.15,
+        "safety_margin": 0.8
+      },
+      "reasoning": "The fabric object is very lightweight and flexible. Minimal grip force (0.25 N) prevents damage while faster lift speed (0.75 m/s) is safe due to the material's robustness.",
+      "affordance_assessment": {
+        "success_probability": 0.9,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Hold the metal can and put it in the box",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "plastic",
+        "mass_category": "light",
+        "friction_coefficient": "0.4-0.6 estimated",
+        "fragility": "normal",
+        "stiffness": "medium",
+        "confidence": 0.85
+      },
+      "control_parameters": {
+        "grip_force": 0.4,
+        "lift_speed": 0.6,
+        "approach_angle": 0.0,
+        "contact_force": 0.24,
+        "safety_margin": 0.8
+      },
+      "reasoning": "The can is likely made of plastic, which is lightweight and has normal friction. I recommend 0.4 N grip force to securely hold it without deformation. Lift speed of 0.6 m/s balances efficiency and safety.",
+      "affordance_assessment": {
+        "success_probability": 0.83,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Hold the metal can and put it in the box",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "metal",
+        "mass_category": "heavy",
+        "friction_coefficient": "0.6-0.8 estimated",
+        "fragility": "robust",
+        "stiffness": "high",
+        "confidence": 0.95
+      },
+      "control_parameters": {
+        "grip_force": 0.7,
+        "lift_speed": 0.35,
+        "approach_angle": 0.0,
+        "contact_force": 0.42,
+        "safety_margin": 0.8
+      },
+      "reasoning": "Given the metallic nature of the can, I estimate higher mass and friction. Increased grip force (0.7 N) ensures secure grasp despite the weight. Slower lift speed (0.35 m/s) maintains stability.",
+      "affordance_assessment": {
+        "success_probability": 0.91,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Hold the metal can and put it in the box",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "glass",
+        "mass_category": "medium",
+        "friction_coefficient": "0.2-0.3 estimated",
+        "fragility": "fragile",
+        "stiffness": "high",
+        "confidence": 0.83
+      },
+      "control_parameters": {
+        "grip_force": 0.3,
+        "lift_speed": 0.25,
+        "approach_angle": 0.0,
+        "contact_force": 0.18,
+        "safety_margin": 1.2
+      },
+      "reasoning": "The can appears to be glass, which is fragile and has low friction. I apply reduced grip force (0.3 N) to prevent breakage and slow lift speed (0.25 m/s) for maximum safety. Safety margin increased to 1.2000000000000002.",
+      "affordance_assessment": {
+        "success_probability": 0.91,
+        "risk_factors": [
+          "fragile_material"
+        ],
+        "recommended_approach": "careful_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Hold the metal can and put it in the box",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "wood",
+        "mass_category": "medium",
+        "friction_coefficient": "0.6-0.8 estimated",
+        "fragility": "normal",
+        "stiffness": "medium",
+        "confidence": 0.79
+      },
+      "control_parameters": {
+        "grip_force": 0.5,
+        "lift_speed": 0.5,
+        "approach_angle": 0.0,
+        "contact_force": 0.3,
+        "safety_margin": 0.8
+      },
+      "reasoning": "This wooden can has medium mass and high friction. Standard grip force (0.5 N) and lift speed (0.5 m/s) are appropriate for reliable manipulation.",
+      "affordance_assessment": {
+        "success_probability": 0.84,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Hold the metal can and put it in the box",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "rubber",
+        "mass_category": "light",
+        "friction_coefficient": "0.8-1.0 estimated",
+        "fragility": "robust",
+        "stiffness": "low",
+        "confidence": 0.76
+      },
+      "control_parameters": {
+        "grip_force": 0.35,
+        "lift_speed": 0.65,
+        "approach_angle": 0.0,
+        "contact_force": 0.21,
+        "safety_margin": 0.8
+      },
+      "reasoning": "The rubber can is lightweight with very high friction. Lower grip force (0.35 N) is sufficient due to excellent surface grip. Faster lift speed (0.65 m/s) is safe given the material's resilience.",
+      "affordance_assessment": {
+        "success_probability": 0.94,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Hold the metal can and put it in the box",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "ceramic",
+        "mass_category": "medium",
+        "friction_coefficient": "0.4-0.6 estimated",
+        "fragility": "fragile",
+        "stiffness": "high",
+        "confidence": 0.85
+      },
+      "control_parameters": {
+        "grip_force": 0.33,
+        "lift_speed": 0.3,
+        "approach_angle": 0.0,
+        "contact_force": 0.2,
+        "safety_margin": 1.2
+      },
+      "reasoning": "Ceramic materials are fragile despite medium mass. I reduce grip force to 0.33 N and lift speed to 0.3 m/s to minimize breakage risk. Safety margin set to 1.2000000000000002.",
+      "affordance_assessment": {
+        "success_probability": 0.83,
+        "risk_factors": [
+          "fragile_material"
+        ],
+        "recommended_approach": "careful_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Hold the metal can and put it in the box",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "fabric",
+        "mass_category": "very_light",
+        "friction_coefficient": "0.4-0.6 estimated",
+        "fragility": "robust",
+        "stiffness": "very_low",
+        "confidence": 0.81
+      },
+      "control_parameters": {
+        "grip_force": 0.25,
+        "lift_speed": 0.75,
+        "approach_angle": 0.0,
+        "contact_force": 0.15,
+        "safety_margin": 0.8
+      },
+      "reasoning": "The fabric can is very lightweight and flexible. Minimal grip force (0.25 N) prevents damage while faster lift speed (0.75 m/s) is safe due to the material's robustness.",
+      "affordance_assessment": {
+        "success_probability": 0.91,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Grab the metal can and move it to the box",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "plastic",
+        "mass_category": "light",
+        "friction_coefficient": "0.4-0.6 estimated",
+        "fragility": "normal",
+        "stiffness": "medium",
+        "confidence": 0.83
+      },
+      "control_parameters": {
+        "grip_force": 0.4,
+        "lift_speed": 0.6,
+        "approach_angle": 0.0,
+        "contact_force": 0.24,
+        "safety_margin": 0.8
+      },
+      "reasoning": "The can is likely made of plastic, which is lightweight and has normal friction. I recommend 0.4 N grip force to securely hold it without deformation. Lift speed of 0.6 m/s balances efficiency and safety.",
+      "affordance_assessment": {
+        "success_probability": 0.94,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Grab the metal can and move it to the box",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "metal",
+        "mass_category": "heavy",
+        "friction_coefficient": "0.6-0.8 estimated",
+        "fragility": "robust",
+        "stiffness": "high",
+        "confidence": 0.92
+      },
+      "control_parameters": {
+        "grip_force": 0.7,
+        "lift_speed": 0.35,
+        "approach_angle": 0.0,
+        "contact_force": 0.42,
+        "safety_margin": 0.8
+      },
+      "reasoning": "Given the metallic nature of the can, I estimate higher mass and friction. Increased grip force (0.7 N) ensures secure grasp despite the weight. Slower lift speed (0.35 m/s) maintains stability.",
+      "affordance_assessment": {
+        "success_probability": 0.88,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Grab the metal can and move it to the box",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "glass",
+        "mass_category": "medium",
+        "friction_coefficient": "0.2-0.3 estimated",
+        "fragility": "fragile",
+        "stiffness": "high",
+        "confidence": 0.87
+      },
+      "control_parameters": {
+        "grip_force": 0.3,
+        "lift_speed": 0.25,
+        "approach_angle": 0.0,
+        "contact_force": 0.18,
+        "safety_margin": 1.2
+      },
+      "reasoning": "The can appears to be glass, which is fragile and has low friction. I apply reduced grip force (0.3 N) to prevent breakage and slow lift speed (0.25 m/s) for maximum safety. Safety margin increased to 1.2000000000000002.",
+      "affordance_assessment": {
+        "success_probability": 0.89,
+        "risk_factors": [
+          "fragile_material"
+        ],
+        "recommended_approach": "careful_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Grab the metal can and move it to the box",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "wood",
+        "mass_category": "medium",
+        "friction_coefficient": "0.6-0.8 estimated",
+        "fragility": "normal",
+        "stiffness": "medium",
+        "confidence": 0.81
+      },
+      "control_parameters": {
+        "grip_force": 0.5,
+        "lift_speed": 0.5,
+        "approach_angle": 0.0,
+        "contact_force": 0.3,
+        "safety_margin": 0.8
+      },
+      "reasoning": "This wooden can has medium mass and high friction. Standard grip force (0.5 N) and lift speed (0.5 m/s) are appropriate for reliable manipulation.",
+      "affordance_assessment": {
+        "success_probability": 0.89,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Grab the metal can and move it to the box",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "rubber",
+        "mass_category": "light",
+        "friction_coefficient": "0.8-1.0 estimated",
+        "fragility": "robust",
+        "stiffness": "low",
+        "confidence": 0.81
+      },
+      "control_parameters": {
+        "grip_force": 0.35,
+        "lift_speed": 0.65,
+        "approach_angle": 0.0,
+        "contact_force": 0.21,
+        "safety_margin": 0.8
+      },
+      "reasoning": "The rubber can is lightweight with very high friction. Lower grip force (0.35 N) is sufficient due to excellent surface grip. Faster lift speed (0.65 m/s) is safe given the material's resilience.",
+      "affordance_assessment": {
+        "success_probability": 0.86,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Grab the metal can and move it to the box",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "ceramic",
+        "mass_category": "medium",
+        "friction_coefficient": "0.4-0.6 estimated",
+        "fragility": "fragile",
+        "stiffness": "high",
+        "confidence": 0.8
+      },
+      "control_parameters": {
+        "grip_force": 0.33,
+        "lift_speed": 0.3,
+        "approach_angle": 0.0,
+        "contact_force": 0.2,
+        "safety_margin": 1.2
+      },
+      "reasoning": "Ceramic materials are fragile despite medium mass. I reduce grip force to 0.33 N and lift speed to 0.3 m/s to minimize breakage risk. Safety margin set to 1.2000000000000002.",
+      "affordance_assessment": {
+        "success_probability": 0.94,
+        "risk_factors": [
+          "fragile_material"
+        ],
+        "recommended_approach": "careful_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick up the object and place it in the container 2",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "plastic",
+        "mass_category": "light",
+        "friction_coefficient": "0.4-0.6 estimated",
+        "fragility": "normal",
+        "stiffness": "medium",
+        "confidence": 0.85
+      },
+      "control_parameters": {
+        "grip_force": 0.4,
+        "lift_speed": 0.6,
+        "approach_angle": 0.0,
+        "contact_force": 0.24,
+        "safety_margin": 0.8
+      },
+      "reasoning": "The object is likely made of plastic, which is lightweight and has normal friction. I recommend 0.4 N grip force to securely hold it without deformation. Lift speed of 0.6 m/s balances efficiency and safety.",
+      "affordance_assessment": {
+        "success_probability": 0.87,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick up the object and place it in the container 2",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "metal",
+        "mass_category": "heavy",
+        "friction_coefficient": "0.6-0.8 estimated",
+        "fragility": "robust",
+        "stiffness": "high",
+        "confidence": 0.9
+      },
+      "control_parameters": {
+        "grip_force": 0.7,
+        "lift_speed": 0.35,
+        "approach_angle": 0.0,
+        "contact_force": 0.42,
+        "safety_margin": 0.8
+      },
+      "reasoning": "Given the metallic nature of the object, I estimate higher mass and friction. Increased grip force (0.7 N) ensures secure grasp despite the weight. Slower lift speed (0.35 m/s) maintains stability.",
+      "affordance_assessment": {
+        "success_probability": 0.91,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick up the object and place it in the container 2",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "glass",
+        "mass_category": "medium",
+        "friction_coefficient": "0.2-0.3 estimated",
+        "fragility": "fragile",
+        "stiffness": "high",
+        "confidence": 0.8
+      },
+      "control_parameters": {
+        "grip_force": 0.3,
+        "lift_speed": 0.25,
+        "approach_angle": 0.0,
+        "contact_force": 0.18,
+        "safety_margin": 1.2
+      },
+      "reasoning": "The object appears to be glass, which is fragile and has low friction. I apply reduced grip force (0.3 N) to prevent breakage and slow lift speed (0.25 m/s) for maximum safety. Safety margin increased to 1.2000000000000002.",
+      "affordance_assessment": {
+        "success_probability": 0.85,
+        "risk_factors": [
+          "fragile_material"
+        ],
+        "recommended_approach": "careful_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick up the object and place it in the container 2",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "wood",
+        "mass_category": "medium",
+        "friction_coefficient": "0.6-0.8 estimated",
+        "fragility": "normal",
+        "stiffness": "medium",
+        "confidence": 0.76
+      },
+      "control_parameters": {
+        "grip_force": 0.5,
+        "lift_speed": 0.5,
+        "approach_angle": 0.0,
+        "contact_force": 0.3,
+        "safety_margin": 0.8
+      },
+      "reasoning": "This wooden object has medium mass and high friction. Standard grip force (0.5 N) and lift speed (0.5 m/s) are appropriate for reliable manipulation.",
+      "affordance_assessment": {
+        "success_probability": 0.94,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick up the object and place it in the container 2",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "rubber",
+        "mass_category": "light",
+        "friction_coefficient": "0.8-1.0 estimated",
+        "fragility": "robust",
+        "stiffness": "low",
+        "confidence": 0.86
+      },
+      "control_parameters": {
+        "grip_force": 0.35,
+        "lift_speed": 0.65,
+        "approach_angle": 0.0,
+        "contact_force": 0.21,
+        "safety_margin": 0.8
+      },
+      "reasoning": "The rubber object is lightweight with very high friction. Lower grip force (0.35 N) is sufficient due to excellent surface grip. Faster lift speed (0.65 m/s) is safe given the material's resilience.",
+      "affordance_assessment": {
+        "success_probability": 0.9,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick up the object and place it in the container 2",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "ceramic",
+        "mass_category": "medium",
+        "friction_coefficient": "0.4-0.6 estimated",
+        "fragility": "fragile",
+        "stiffness": "high",
+        "confidence": 0.9
+      },
+      "control_parameters": {
+        "grip_force": 0.33,
+        "lift_speed": 0.3,
+        "approach_angle": 0.0,
+        "contact_force": 0.2,
+        "safety_margin": 1.2
+      },
+      "reasoning": "Ceramic materials are fragile despite medium mass. I reduce grip force to 0.33 N and lift speed to 0.3 m/s to minimize breakage risk. Safety margin set to 1.2000000000000002.",
+      "affordance_assessment": {
+        "success_probability": 0.93,
+        "risk_factors": [
+          "fragile_material"
+        ],
+        "recommended_approach": "careful_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick up the object and place it in the container 2",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "fabric",
+        "mass_category": "very_light",
+        "friction_coefficient": "0.4-0.6 estimated",
+        "fragility": "robust",
+        "stiffness": "very_low",
+        "confidence": 0.93
+      },
+      "control_parameters": {
+        "grip_force": 0.25,
+        "lift_speed": 0.75,
+        "approach_angle": 0.0,
+        "contact_force": 0.15,
+        "safety_margin": 0.8
+      },
+      "reasoning": "The fabric object is very lightweight and flexible. Minimal grip force (0.25 N) prevents damage while faster lift speed (0.75 m/s) is safe due to the material's robustness.",
+      "affordance_assessment": {
+        "success_probability": 0.87,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick up the fabric bag and move it to the basket",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "plastic",
+        "mass_category": "light",
+        "friction_coefficient": "0.4-0.6 estimated",
+        "fragility": "normal",
+        "stiffness": "medium",
+        "confidence": 0.89
+      },
+      "control_parameters": {
+        "grip_force": 0.4,
+        "lift_speed": 0.6,
+        "approach_angle": 0.0,
+        "contact_force": 0.24,
+        "safety_margin": 0.8
+      },
+      "reasoning": "The bag is likely made of plastic, which is lightweight and has normal friction. I recommend 0.4 N grip force to securely hold it without deformation. Lift speed of 0.6 m/s balances efficiency and safety.",
+      "affordance_assessment": {
+        "success_probability": 0.83,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick up the fabric bag and move it to the basket",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "metal",
+        "mass_category": "heavy",
+        "friction_coefficient": "0.6-0.8 estimated",
+        "fragility": "robust",
+        "stiffness": "high",
+        "confidence": 0.86
+      },
+      "control_parameters": {
+        "grip_force": 0.7,
+        "lift_speed": 0.35,
+        "approach_angle": 0.0,
+        "contact_force": 0.42,
+        "safety_margin": 0.8
+      },
+      "reasoning": "Given the metallic nature of the bag, I estimate higher mass and friction. Increased grip force (0.7 N) ensures secure grasp despite the weight. Slower lift speed (0.35 m/s) maintains stability.",
+      "affordance_assessment": {
+        "success_probability": 0.87,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick up the fabric bag and move it to the basket",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "glass",
+        "mass_category": "medium",
+        "friction_coefficient": "0.2-0.3 estimated",
+        "fragility": "fragile",
+        "stiffness": "high",
+        "confidence": 0.84
+      },
+      "control_parameters": {
+        "grip_force": 0.3,
+        "lift_speed": 0.25,
+        "approach_angle": 0.0,
+        "contact_force": 0.18,
+        "safety_margin": 1.2
+      },
+      "reasoning": "The bag appears to be glass, which is fragile and has low friction. I apply reduced grip force (0.3 N) to prevent breakage and slow lift speed (0.25 m/s) for maximum safety. Safety margin increased to 1.2000000000000002.",
+      "affordance_assessment": {
+        "success_probability": 0.82,
+        "risk_factors": [
+          "fragile_material"
+        ],
+        "recommended_approach": "careful_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick up the fabric bag and move it to the basket",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "wood",
+        "mass_category": "medium",
+        "friction_coefficient": "0.6-0.8 estimated",
+        "fragility": "normal",
+        "stiffness": "medium",
+        "confidence": 0.79
+      },
+      "control_parameters": {
+        "grip_force": 0.5,
+        "lift_speed": 0.5,
+        "approach_angle": 0.0,
+        "contact_force": 0.3,
+        "safety_margin": 0.8
+      },
+      "reasoning": "This wooden bag has medium mass and high friction. Standard grip force (0.5 N) and lift speed (0.5 m/s) are appropriate for reliable manipulation.",
+      "affordance_assessment": {
+        "success_probability": 0.92,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick up the fabric bag and move it to the basket",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "rubber",
+        "mass_category": "light",
+        "friction_coefficient": "0.8-1.0 estimated",
+        "fragility": "robust",
+        "stiffness": "low",
+        "confidence": 0.79
+      },
+      "control_parameters": {
+        "grip_force": 0.35,
+        "lift_speed": 0.65,
+        "approach_angle": 0.0,
+        "contact_force": 0.21,
+        "safety_margin": 0.8
+      },
+      "reasoning": "The rubber bag is lightweight with very high friction. Lower grip force (0.35 N) is sufficient due to excellent surface grip. Faster lift speed (0.65 m/s) is safe given the material's resilience.",
+      "affordance_assessment": {
+        "success_probability": 0.86,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick up the fabric bag and move it to the basket",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "ceramic",
+        "mass_category": "medium",
+        "friction_coefficient": "0.4-0.6 estimated",
+        "fragility": "fragile",
+        "stiffness": "high",
+        "confidence": 0.83
+      },
+      "control_parameters": {
+        "grip_force": 0.33,
+        "lift_speed": 0.3,
+        "approach_angle": 0.0,
+        "contact_force": 0.2,
+        "safety_margin": 1.2
+      },
+      "reasoning": "Ceramic materials are fragile despite medium mass. I reduce grip force to 0.33 N and lift speed to 0.3 m/s to minimize breakage risk. Safety margin set to 1.2000000000000002.",
+      "affordance_assessment": {
+        "success_probability": 0.88,
+        "risk_factors": [
+          "fragile_material"
+        ],
+        "recommended_approach": "careful_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Pick up the fabric bag and move it to the basket",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "fabric",
+        "mass_category": "very_light",
+        "friction_coefficient": "0.4-0.6 estimated",
+        "fragility": "robust",
+        "stiffness": "very_low",
+        "confidence": 0.93
+      },
+      "control_parameters": {
+        "grip_force": 0.25,
+        "lift_speed": 0.75,
+        "approach_angle": 0.0,
+        "contact_force": 0.15,
+        "safety_margin": 0.8
+      },
+      "reasoning": "The fabric bag is very lightweight and flexible. Minimal grip force (0.25 N) prevents damage while faster lift speed (0.75 m/s) is safe due to the material's robustness.",
+      "affordance_assessment": {
+        "success_probability": 0.85,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Grasp the fabric bag and position it in the container",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "plastic",
+        "mass_category": "light",
+        "friction_coefficient": "0.4-0.6 estimated",
+        "fragility": "normal",
+        "stiffness": "medium",
+        "confidence": 0.8
+      },
+      "control_parameters": {
+        "grip_force": 0.4,
+        "lift_speed": 0.6,
+        "approach_angle": 0.0,
+        "contact_force": 0.24,
+        "safety_margin": 0.8
+      },
+      "reasoning": "The bag is likely made of plastic, which is lightweight and has normal friction. I recommend 0.4 N grip force to securely hold it without deformation. Lift speed of 0.6 m/s balances efficiency and safety.",
+      "affordance_assessment": {
+        "success_probability": 0.94,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Grasp the fabric bag and position it in the container",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "metal",
+        "mass_category": "heavy",
+        "friction_coefficient": "0.6-0.8 estimated",
+        "fragility": "robust",
+        "stiffness": "high",
+        "confidence": 0.84
+      },
+      "control_parameters": {
+        "grip_force": 0.7,
+        "lift_speed": 0.35,
+        "approach_angle": 0.0,
+        "contact_force": 0.42,
+        "safety_margin": 0.8
+      },
+      "reasoning": "Given the metallic nature of the bag, I estimate higher mass and friction. Increased grip force (0.7 N) ensures secure grasp despite the weight. Slower lift speed (0.35 m/s) maintains stability.",
+      "affordance_assessment": {
+        "success_probability": 0.89,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Grasp the fabric bag and position it in the container",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "glass",
+        "mass_category": "medium",
+        "friction_coefficient": "0.2-0.3 estimated",
+        "fragility": "fragile",
+        "stiffness": "high",
+        "confidence": 0.86
+      },
+      "control_parameters": {
+        "grip_force": 0.3,
+        "lift_speed": 0.25,
+        "approach_angle": 0.0,
+        "contact_force": 0.18,
+        "safety_margin": 1.2
+      },
+      "reasoning": "The bag appears to be glass, which is fragile and has low friction. I apply reduced grip force (0.3 N) to prevent breakage and slow lift speed (0.25 m/s) for maximum safety. Safety margin increased to 1.2000000000000002.",
+      "affordance_assessment": {
+        "success_probability": 0.85,
+        "risk_factors": [
+          "fragile_material"
+        ],
+        "recommended_approach": "careful_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Grasp the fabric bag and position it in the container",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "wood",
+        "mass_category": "medium",
+        "friction_coefficient": "0.6-0.8 estimated",
+        "fragility": "normal",
+        "stiffness": "medium",
+        "confidence": 0.91
+      },
+      "control_parameters": {
+        "grip_force": 0.5,
+        "lift_speed": 0.5,
+        "approach_angle": 0.0,
+        "contact_force": 0.3,
+        "safety_margin": 0.8
+      },
+      "reasoning": "This wooden bag has medium mass and high friction. Standard grip force (0.5 N) and lift speed (0.5 m/s) are appropriate for reliable manipulation.",
+      "affordance_assessment": {
+        "success_probability": 0.93,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Grasp the fabric bag and position it in the container",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "rubber",
+        "mass_category": "light",
+        "friction_coefficient": "0.8-1.0 estimated",
+        "fragility": "robust",
+        "stiffness": "low",
+        "confidence": 0.82
+      },
+      "control_parameters": {
+        "grip_force": 0.35,
+        "lift_speed": 0.65,
+        "approach_angle": 0.0,
+        "contact_force": 0.21,
+        "safety_margin": 0.8
+      },
+      "reasoning": "The rubber bag is lightweight with very high friction. Lower grip force (0.35 N) is sufficient due to excellent surface grip. Faster lift speed (0.65 m/s) is safe given the material's resilience.",
+      "affordance_assessment": {
+        "success_probability": 0.91,
+        "risk_factors": [],
+        "recommended_approach": "standard_confident_approach"
+      }
+    }
+  },
+  {
+    "instruction": "You are a physics-aware robot control system trained on DROID dataset. Analyze the natural language command and extract physical properties, then generate control parameters for Franka Panda robot.",
+    "input": "Grasp the fabric bag and position it in the container",
+    "output": {
+      "physical_analysis": {
+        "material_inference": "ceramic",
+        "mass_category": "medium",
+        "friction_coefficient": "0.4-0.6 estimated",
+        "fragility": "fragile",
+        "stiffness": "high",
+        "confidence": 0.83
+      },
+      "control_parameters": {
+        "grip_force": 0.33,
+        "lift_speed": 0.3,
+        "approach_angle": 0.0,
+        "contact_force": 0.2,
+        "safety_margin": 1.2
+      },
+      "reasoning": "Ceramic materials are fragile despite medium mass. I reduce grip force to 0.33 N and lift speed to 0.3 m/s to minimize breakage risk. Safety margin set to 1.2000000000000002.",
+      "affordance_assessment": {
+        "success_probability": 0.83,
+        "risk_factors": [
+          "fragile_material"
+        ],
+        "recommended_approach": "careful_approach"
+      }
+    }
+  }
+]

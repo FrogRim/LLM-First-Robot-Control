@@ -1,0 +1,15 @@
+{
+  "total_samples": 60,
+  "materials_covered": [
+    "metal",
+    "fabric",
+    "ceramic",
+    "glass",
+    "plastic",
+    "wood",
+    "rubber"
+  ],
+  "avg_confidence": 0.8568333333333334,
+  "format_version": "1.0.0",
+  "purpose": "LLM fine-tuning for physical domain robot control"
+}

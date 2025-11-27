@@ -1,0 +1,403 @@
+{
+  "baseline": {
+    "config": {
+      "max_new_tokens": 256,
+      "temperature": 0.0,
+      "top_p": 1.0
+    },
+    "metrics": {
+      "total_samples": 30,
+      "json_parse_success": 30,
+      "json_parse_rate_%": 100.0,
+      "avg_inference_ms": 25575.0,
+      "min_inference_ms": 23338.0,
+      "max_inference_ms": 27940.0,
+      "avg_confidence": 0.799
+    },
+    "details": [
+      {
+        "sample_idx": 0,
+        "input": "Secure the object and place it in the basket...",
+        "inference_time_ms": 26875.762462615967,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 1,
+        "input": "Take the ceramic plate and place it in the rack...",
+        "inference_time_ms": 27937.94059753418,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 2,
+        "input": "Grasp the glass vase and relocate it in the zone...",
+        "inference_time_ms": 26372.1022605896,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 3,
+        "input": "Pick up the object and place it in the container 8...",
+        "inference_time_ms": 26210.06751060486,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 4,
+        "input": "Retrieve the glass jar and set it in the holder...",
+        "inference_time_ms": 27939.743757247925,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 5,
+        "input": "Retrieve the target object and arrange it in the p...",
+        "inference_time_ms": 26118.897199630737,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 6,
+        "input": "Lift the metal can and position it in the tray...",
+        "inference_time_ms": 25406.579732894897,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 7,
+        "input": "delicately grasp the rubber pad without tilting an...",
+        "inference_time_ms": 26769.251346588135,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 8,
+        "input": "quickly collect the fabric bag without touching ot...",
+        "inference_time_ms": 27887.272357940674,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 9,
+        "input": "Grab the plastic bottle and relocate it in the slo...",
+        "inference_time_ms": 25992.45023727417,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 10,
+        "input": "Grasp the small object and relocate it in the tray...",
+        "inference_time_ms": 25911.09585762024,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 11,
+        "input": "Take the ceramic plate and place it in the rack...",
+        "inference_time_ms": 27387.597799301147,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 12,
+        "input": "Take the ceramic plate and place it in the rack...",
+        "inference_time_ms": 26138.001680374146,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 13,
+        "input": "Lift the metal can and position it in the tray...",
+        "inference_time_ms": 24203.99761199951,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 14,
+        "input": "Pick up the object and place it in the container 5...",
+        "inference_time_ms": 24329.2293548584,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 15,
+        "input": "Pick up the object and place it in the container 9...",
+        "inference_time_ms": 24392.284631729126,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 16,
+        "input": "carefully collect the flat object following the sh...",
+        "inference_time_ms": 25823.925256729126,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 17,
+        "input": "Grasp the glass vase and relocate it in the zone...",
+        "inference_time_ms": 25318.507432937622,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 18,
+        "input": "Grasp the small object and relocate it in the tray...",
+        "inference_time_ms": 24135.94698905945,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 19,
+        "input": "Secure the rubber ring and store it in the shelf...",
+        "inference_time_ms": 25199.296474456787,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 20,
+        "input": "Secure the item and store it in the platform...",
+        "inference_time_ms": 24902.33302116394,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 21,
+        "input": "precisely hold the fabric cloth without tilting an...",
+        "inference_time_ms": 24773.147583007812,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 22,
+        "input": "quickly grasp the metal tool and deposit it in the...",
+        "inference_time_ms": 23337.619066238403,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 23,
+        "input": "Take the rubber pad and arrange it in the stand...",
+        "inference_time_ms": 25425.299882888794,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 24,
+        "input": "Grab the plastic bottle and relocate it in the slo...",
+        "inference_time_ms": 24976.76181793213,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 25,
+        "input": "precisely hold the fabric cloth without tilting an...",
+        "inference_time_ms": 24543.750047683716,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 26,
+        "input": "Secure the object and place it in the basket...",
+        "inference_time_ms": 24216.949224472046,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 27,
+        "input": "Lift the ceramic bowl avoiding obstacles and place...",
+        "inference_time_ms": 25346.28438949585,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 28,
+        "input": "cautiously acquire the ceramic plate and move it i...",
+        "inference_time_ms": 25392.630577087402,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 29,
+        "input": "Collect the wooden piece following the shortest pa...",
+        "inference_time_ms": 23977.831840515137,
+        "json_parsed": true
+      }
+    ]
+  },
+  "optimized": {
+    "config": {
+      "max_new_tokens": 128,
+      "temperature": 0.0,
+      "top_p": 1.0
+    },
+    "metrics": {
+      "total_samples": 30,
+      "json_parse_success": 30,
+      "json_parse_rate_%": 100.0,
+      "avg_inference_ms": 15567.0,
+      "min_inference_ms": 14952.0,
+      "max_inference_ms": 16386.0,
+      "avg_confidence": 0.799
+    },
+    "details": [
+      {
+        "sample_idx": 0,
+        "input": "Secure the object and place it in the basket...",
+        "inference_time_ms": 15212.844133377075,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 1,
+        "input": "Take the ceramic plate and place it in the rack...",
+        "inference_time_ms": 15317.942142486572,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 2,
+        "input": "Grasp the glass vase and relocate it in the zone...",
+        "inference_time_ms": 16063.514709472656,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 3,
+        "input": "Pick up the object and place it in the container 8...",
+        "inference_time_ms": 15383.913040161133,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 4,
+        "input": "Retrieve the glass jar and set it in the holder...",
+        "inference_time_ms": 15488.9657497406,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 5,
+        "input": "Retrieve the target object and arrange it in the p...",
+        "inference_time_ms": 15048.564434051514,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 6,
+        "input": "Lift the metal can and position it in the tray...",
+        "inference_time_ms": 15373.216152191162,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 7,
+        "input": "delicately grasp the rubber pad without tilting an...",
+        "inference_time_ms": 15466.759443283081,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 8,
+        "input": "quickly collect the fabric bag without touching ot...",
+        "inference_time_ms": 15770.857095718384,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 9,
+        "input": "Grab the plastic bottle and relocate it in the slo...",
+        "inference_time_ms": 15660.490989685059,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 10,
+        "input": "Grasp the small object and relocate it in the tray...",
+        "inference_time_ms": 15345.278024673462,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 11,
+        "input": "Take the ceramic plate and place it in the rack...",
+        "inference_time_ms": 15341.697216033936,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 12,
+        "input": "Take the ceramic plate and place it in the rack...",
+        "inference_time_ms": 15697.117328643799,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 13,
+        "input": "Lift the metal can and position it in the tray...",
+        "inference_time_ms": 15746.61374092102,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 14,
+        "input": "Pick up the object and place it in the container 5...",
+        "inference_time_ms": 16169.615030288696,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 15,
+        "input": "Pick up the object and place it in the container 9...",
+        "inference_time_ms": 15448.165893554688,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 16,
+        "input": "carefully collect the flat object following the sh...",
+        "inference_time_ms": 15246.160745620728,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 17,
+        "input": "Grasp the glass vase and relocate it in the zone...",
+        "inference_time_ms": 15582.578420639038,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 18,
+        "input": "Grasp the small object and relocate it in the tray...",
+        "inference_time_ms": 15531.26072883606,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 19,
+        "input": "Secure the rubber ring and store it in the shelf...",
+        "inference_time_ms": 15685.61601638794,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 20,
+        "input": "Secure the item and store it in the platform...",
+        "inference_time_ms": 15790.463209152222,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 21,
+        "input": "precisely hold the fabric cloth without tilting an...",
+        "inference_time_ms": 15911.103248596191,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 22,
+        "input": "quickly grasp the metal tool and deposit it in the...",
+        "inference_time_ms": 14952.059984207153,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 23,
+        "input": "Take the rubber pad and arrange it in the stand...",
+        "inference_time_ms": 15433.741331100464,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 24,
+        "input": "Grab the plastic bottle and relocate it in the slo...",
+        "inference_time_ms": 15604.052782058716,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 25,
+        "input": "precisely hold the fabric cloth without tilting an...",
+        "inference_time_ms": 15302.906036376953,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 26,
+        "input": "Secure the object and place it in the basket...",
+        "inference_time_ms": 15389.692783355713,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 27,
+        "input": "Lift the ceramic bowl avoiding obstacles and place...",
+        "inference_time_ms": 15957.816123962402,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 28,
+        "input": "cautiously acquire the ceramic plate and move it i...",
+        "inference_time_ms": 15696.442127227783,
+        "json_parsed": true
+      },
+      {
+        "sample_idx": 29,
+        "input": "Collect the wooden piece following the shortest pa...",
+        "inference_time_ms": 16386.05046272278,
+        "json_parsed": true
+      }
+    ]
+  },
+  "comparison": {
+    "speedup_factor": 1.64,
+    "time_saved_ms": 10008.0,
+    "parse_rate_diff_%p": 0.0
+  }
+}

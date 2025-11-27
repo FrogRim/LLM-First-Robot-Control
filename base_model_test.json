@@ -1,0 +1,47 @@
+{
+  "model_name": "Base Model (No Fine-tuning)",
+  "total_samples": 5,
+  "json_parse_success": 5,
+  "json_parse_rate_percent": 100.0,
+  "avg_inference_time_ms": 14474.680423736572,
+  "min_inference_time_ms": 13279.712915420532,
+  "max_inference_time_ms": 15628.13925743103,
+  "avg_confidence": 0.85,
+  "details": [
+    {
+      "sample_idx": 0,
+      "json_valid": true,
+      "predicted_material": "rigid",
+      "inference_time_ms": 15628.13925743103,
+      "raw_text_preview": "JSON valid"
+    },
+    {
+      "sample_idx": 1,
+      "json_valid": true,
+      "predicted_material": "ceramic",
+      "inference_time_ms": 13279.712915420532,
+      "raw_text_preview": "JSON valid"
+    },
+    {
+      "sample_idx": 2,
+      "json_valid": true,
+      "predicted_material": "glass",
+      "inference_time_ms": 14140.649318695068,
+      "raw_text_preview": "JSON valid"
+    },
+    {
+      "sample_idx": 3,
+      "json_valid": true,
+      "predicted_material": "unknown",
+      "inference_time_ms": 14141.769409179688,
+      "raw_text_preview": "JSON valid"
+    },
+    {
+      "sample_idx": 4,
+      "json_valid": true,
+      "predicted_material": "glass",
+      "inference_time_ms": 15183.131217956543,
+      "raw_text_preview": "JSON valid"
+    }
+  ]
+}

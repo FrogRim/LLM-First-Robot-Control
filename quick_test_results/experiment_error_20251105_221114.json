@@ -1,0 +1,23 @@
+{
+  "error": "cannot access local variable 'controller' where it is not associated with a value",
+  "timestamp": "2025-11-05T22:11:14.715915",
+  "partial_results": {
+    "experiment_config": {
+      "num_runs_per_scenario": 3,
+      "enable_genesis": true,
+      "timestamp": "2025-11-05T22:11:14.099159",
+      "controllers": [
+        "Rule-Based",
+        "RL-Based",
+        "LLM-First"
+      ],
+      "scenarios": [
+        "object_sorting",
+        "multi_step_rearrangement",
+        "physical_property_reasoning"
+      ]
+    },
+    "results": {},
+    "performance_comparison": {}
+  }
+}
