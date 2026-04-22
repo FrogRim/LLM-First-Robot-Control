@@ -1,0 +1,11 @@
+# Isaac Sim 5.1.0 포트폴리오 데모 의존성
+# Isaac Sim 자체 Python 환경(python.sh)에서 실행하므로 별도 설치 불필요
+# 단, 영상 처리용 라이브러리는 conda base_env 또는 시스템에 필요
+
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# Isaac Sim 5.1.0 설치 필요 (NVIDIA Omniverse)
+# https://developer.nvidia.com/isaac-sim
+# 실행: ~/IsaacSim/_build/linux-x86_64/release/python.sh demo_portfolio.py

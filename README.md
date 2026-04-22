@@ -1,9 +1,44 @@
 # LLM-First 기반 물리 속성 추출 로봇 제어 시스템
-## 🌟 DROID 공개 데이터셋 활용 Genesis AI + Franka 변환 파이프라인 포함
+## 🌟 DROID 공개 데이터셋 활용 | Genesis AI → Isaac Sim 5.1.0 업그레이드
 
 **졸업논문 프로젝트**: "LLM-First 기반 물리 속성 추출 로봇 제어"
-**개발 완료일**: 2025-09-28
+**개발 완료일**: 2025-09-28 → **Isaac Sim 마이그레이션**: 2026-04-22
 **개발자**: 이강림 (2243926)
+
+---
+
+## 🎬 Isaac Sim 5.1.0 포트폴리오 데모
+
+> Genesis AI 시뮬레이터에서 **NVIDIA Isaac Sim 5.1.0**으로 업그레이드하여 RTX 실시간 렌더링으로 제작한 포트폴리오 데모입니다.
+> LLM이 추론한 `grip_force` / `lift_speed`가 **실제 로봇 제어에 직접 반영**됩니다.
+
+![Isaac Sim Demo](isaacSim/assets/demo_preview.gif)
+
+### 재료별 LLM 추론 파라미터 → 실제 로봇 제어 매핑
+
+| 재료 | grip_force | lift_speed | density | friction | 그리퍼 강도 | 리프팅 속도 |
+|------|:----------:|:----------:|:-------:|:--------:|:-----------:|:-----------:|
+| 🔵 Plastic | 0.2 N | 0.71 m/s | 600 kg/m³ | 0.80 | loose (22mm) | fast |
+| ⚙️ Metal | 1.0 N | 0.30 m/s | 7800 kg/m³ | 0.70 | tight (8mm) | slow |
+| 🪟 Glass | 0.2 N | 0.20 m/s | 2500 kg/m³ | 0.30 | loose (22mm) | very slow |
+| 🪵 Wood | 0.4 N | 0.80 m/s | 600 kg/m³ | 0.75 | medium (19mm) | fastest |
+
+#### 파라미터 반영 방식
+- **`grip_force`** → `ParallelGripper.joint_closed_positions` (파지 강도 직접 제어)
+- **`lift_speed`** → `PickPlaceController.events_dt[4]` (리프팅 Phase 속도 직접 제어)
+- **`density`** → `DynamicCuboid.mass` (PhysX 물리 엔진 질량)
+- **`friction`** → `UsdPhysics.MaterialAPI` (USD 물리 재질 마찰계수)
+
+#### 실행 방법
+```bash
+# Isaac Sim 5.1.0 설치 후
+cd ~/IsaacSim/_build/linux-x86_64/release/
+./python.sh /path/to/isaacSim/demo_portfolio.py
+```
+
+📁 소스코드: [`isaacSim/demo_portfolio.py`](isaacSim/demo_portfolio.py)
+
+---
 
 ## 📋 프로젝트 개요
 
