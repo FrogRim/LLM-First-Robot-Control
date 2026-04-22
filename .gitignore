@@ -46,3 +46,34 @@ wandb/
 # IDE settings
 .vscode/
 .idea/
+
+# Claude Code 설정
+.claude/
+
+# Markdown (README.md 제외)
+*.md
+!README.md
+
+# 데이터 파일
+*.json
+*.jsonl
+*.csv
+
+# 기타 대용량/불필요 파일
+*.mp4
+*.avi
+*.mov
+*.gif
+!isaacSim/assets/demo_preview.gif
+
+# 모델 체크포인트 디렉토리
+droid-physics-qwen14b-qlora/
+last_run_prepared/
+
+# 결과/리포트 디렉토리
+demo_results/
+quick_test_results/
+reports/
+report_result/
+figures/
+docs/
