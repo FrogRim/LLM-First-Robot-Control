@@ -7,9 +7,9 @@
 
 ---
 
-## 🎬 Isaac Sim 5.1.0 포트폴리오 데모
+## 🎬 Isaac Sim 5.1.0 데모
 
-> Genesis AI 시뮬레이터에서 **NVIDIA Isaac Sim 5.1.0**으로 업그레이드하여 RTX 실시간 렌더링으로 제작한 포트폴리오 데모입니다.
+> Genesis AI 시뮬레이터에서 **NVIDIA Isaac Sim 5.1.0**으로 업그레이드하여 RTX 실시간 렌더링으로 제작한  데모입니다.
 > LLM이 추론한 `grip_force` / `lift_speed`가 **실제 로봇 제어에 직접 반영**됩니다.
 
 ![Isaac Sim Demo](isaacSim/assets/demo_preview.gif)
